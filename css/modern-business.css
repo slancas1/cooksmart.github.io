@@ -5,8 +5,45 @@
  */
 body {
   padding-top: 56px;
+  font-family: 'gfs_didotregular';
+  font-weight: normal;
+  font-style: normal;
 }
-
+h1 {
+    font-family: 'gfs_didotregular';
+    font-weight: normal;
+    font-style: normal;
+}
+h3 {
+    font-family: 'gfs_didotregular';
+    font-weight: normal;
+    font-style: normal;
+}
+title {
+    font-family: 'gfs_didotregular';
+    font-weight: normal;
+    font-style: normal;
+}
+p {
+    font-family: 'gfs_didotregular';
+    font-weight: normal;
+    font-style: normal;
+}
+a {
+    font-family: 'gfs_didotregular';
+    font-weight: normal;
+    font-style: normal;
+}
+label {
+    font-family: 'gfs_didotregular';
+    font-weight: normal;
+    font-style: normal;
+}
+button {
+    font-family: 'gfs_didotregular';
+    font-weight: normal;
+    font-style: normal;
+}
 .carousel-item {
   height: 65vh;
   min-height: 300px;
