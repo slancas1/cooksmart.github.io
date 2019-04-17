@@ -21,6 +21,13 @@ h3 {
     font-weight: normal;
     font-style: normal;
 }
+h4 {
+    color: #e7e6e6;
+    font-family: 'gfs_didotregular';
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
 title {
     color: #d65a02;
     font-family: 'gfs_didotregular';
