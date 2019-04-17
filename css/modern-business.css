@@ -46,6 +46,12 @@ a {
     font-weight: normal;
     font-style: normal;
 }
+a:hover {
+  color: #e7e6e6;
+  font-family: 'gfs_didotregular';
+  font-weight: normal;
+  font-style: normal;
+}
 label {
     color: #d65a02;
     font-family: 'gfs_didotregular';
