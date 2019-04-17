@@ -10,36 +10,43 @@ body {
   font-style: normal;
 }
 h1 {
+    color: #d65a02;
     font-family: 'gfs_didotregular';
     font-weight: normal;
     font-style: normal;
 }
 h3 {
+    color: #d65a02;
     font-family: 'gfs_didotregular';
     font-weight: normal;
     font-style: normal;
 }
 title {
+    color: #d65a02;
     font-family: 'gfs_didotregular';
     font-weight: normal;
     font-style: normal;
 }
 p {
+    color: #d65a02;
     font-family: 'gfs_didotregular';
     font-weight: normal;
     font-style: normal;
 }
 a {
+    color: #d65a02;
     font-family: 'gfs_didotregular';
     font-weight: normal;
     font-style: normal;
 }
 label {
+    color: #d65a02;
     font-family: 'gfs_didotregular';
     font-weight: normal;
     font-style: normal;
 }
 button {
+    color: #d65a02;
     font-family: 'gfs_didotregular';
     font-weight: normal;
     font-style: normal;
