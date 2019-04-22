@@ -1,86 +1,92 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Best Chocolate Chip Cookie Ever</title>
-    <!-- Page metadata (invisible) -->
-  </head>
-  <body>
+<html lang="en">
 
-	<h1>The Best Chocolate Chip Cookies</h1>
-	<img src="assets/cookies.jpg">
- 	<h2>Recipe by: Bonnie Owens</h2>
+<head>
 
-	<section>
-		<header>RELATED RECIPES</header>
-		<ul>
-			<li>Amazing Chocolate Chip Cookies!</li>
-			<li>Beer and Pretzel Chocolate Chip Cookies</li>
-			<li>Bisquick® Chocolate Chip Cookies</li>
-			<li>Browned Butter and Coconut Chocolate Chip Cookies</li>
-			<li>Buttery Chocolate Chip Cookies</li>
-			<li>Cherry Chocolate Chip Cookies</li>
-		</ul>
-	</section>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-	<section>
-		<dl>
-		  <dt>PREP TIME</dt>
-		  <dd>45 Min</dd>
-		  <dt>TOTAL TIME</dt>
-		  <dd>45 Min</dd>
-		  <dt>SERVINGS</dt>
-		  <dd>A LOT</dd>
-		</dl>
-	</section>
+  <title>CookSmart</title>
 
-	<section>
-		<header>INGREDIENTS</header>
-		<ul>
-			<li>1 1/2 cup (3 sticks) butter, softened</li>
-			<li>1 cup brown sugar</li>
-			<li>1 cup granulated sugar</li>
-			<li>1 Tbl vanilla instant pudding powder</li>
-			<li>2 Tbl milk</li>
-			<li>2 Tbl vanilla extract</li>
-			<li>2 eggs</li>
-			<li>4 cups all purpose flour</li>
-			<li>2 tsp baking soda</li>
-			<li>1/2 tsp salt</li>
-			<li>4 cups chocolate chips</li>
-			<li>1 cup chopped walnuts or pecans(optional)</li>
-		</ul>
-	</section>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-	<section>
-		<header>How to make Mama’s Recipe: The Best Chocolate Chip Cookies</header>
-		<ol>
-			<li>Preheat oven to 350 degrees</li>
-			<li>Beat butter and sugars together until light and fluffy</li>
-			<li>Stir in pudding mix milk and vanilla extract.</li>
-			<li>Beat in eggs.</li>
-			<li>Add dry ingredients and stir until combined.</li>
-			<li>Stir in chocolate chips and nuts.</li>
-			<li>Place 1 1/2 inch balls of dough 2 inches apart on an un </li>greased cookie sheet.
-			<li>Bake 8-10 minutes or until golden brown.</li>
-		</ol>
-	</section>
+  <!-- Custom styles for this template -->
+  <link href="css/modern-business.css" rel="stylesheet">
 
-	<section>
-		<header>EXPERT TIPS</header>
-		<p>Use an ice-cream scoop to make perfectly shaped cookies. Level off the dough on the edge of the bowl for perfectly round cookies.</p>
-		<p>If you didn't think these cookies could get any better, think again! Get creative! Instead of the 2 cups semisweet chocolate chips, make with 1/2 cup each of semisweet chocolate chips, peanut butter chips, or butterscotch chips. OMG these are good!</p>
-		<p>Got questions? Our experts have the answers.
-			<a href="mailto:me@fakeemail.com">Email Me</a>
-		</p>
-	</section>
+</head>
 
-	<section>
-		<header>NUTRITION INFORMATION</header>
-		<p>Probably bad for you, but who cares. MMMMMM COOKIES!!!! nom nom nom</p>
-		<p>This recipe was altered from Open Source Recipe
-			<a href="http://www.opensourcefood.com/people/Amanori/recipes/mamas-recipe-the-best-chocolate-chip-cookies">for more recipes go here</a>
-		.
-		</p>
-	</section>
-  </body>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src= "logo.png" alt="CookSmart"></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="find.html">Find</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="myrecipes.html">My Recipes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="shoppinglist.html">Shopping List</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropleft dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              My Profile
+            </a>
+                  <ul class="dropdown-menu" style="padding: 20px 10px 5px 10px; width:300px;">
+                           <li>
+                                     <form action="login.php" method="POST">
+                                                <div class="form-group">
+                                                            <input type="email" class="form-control" name="username" placeholder="Username">
+                                                </div>
+                                                <div class="form-group">
+                                                  <input type="password" class="form-control" name="password" placeholder="Password">
+                                                </div>
+                                                <div class="checkbox">
+                                                  <label><input type="checkbox"> Remember me</label>
+                                                </div>
+                                                <button type="submit" class="btn btn-primary" name="login">Login</button>
+                                                <button type="submit" class="btn btn-primary" name="signup">Sign Up</button>
+                                      </form>
+                          </li>
+                  </ul>
+            <!-- <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+              <a class="dropdown-item" href="sign-up.html">Sign Up</a>
+              <a class="dropdown-item" href="log-in.html">Log In</a>
+            </div> -->
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+      <img src="https://static01.nyt.com/images/2017/03/24/dining/24COOKING-CLASSICPANCAKES/24COOKING-CLASSICPANCAKES-articleLarge.jpg" alt="" align="middle">
+      <h3>Pancakes</h3>
+      <p> Total Time: </p>
+      <button type="submit" class="btn btn-primary" id="addToRecipes">Add to My Recipes</button>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Contact form JavaScript -->
+  <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+</body>
+
 </html>
