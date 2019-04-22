@@ -50,6 +50,12 @@ button {
     color: #d65a02;
     font-family: 'gfs_didotregular';
 }
+
+.col-lg-4 col-sm-6 portfolio-item {
+    float: left;
+    width: 25%;
+}
+
 .carousel-item {
   height: 65vh;
   min-height: 300px;
