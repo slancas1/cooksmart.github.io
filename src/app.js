@@ -17,19 +17,49 @@ search.addWidget(
 );
 
 search.addWidget(
+    instantsearch.widgets.refinementList({
+        container: '#calories-list',
+        attribute: 'calories',
+    })
+);
+
+search.addWidget(
+    instantsearch.widgets.refinementList({
+        container: '#time-list',
+        attribute: 'time',
+    })
+);
+
+search.addWidget(
+    instantsearch.widgets.refinementList({
+        container: '#price-list',
+        attribute: 'price',
+    })
+);
+
+search.addWidget(
+    instantsearch.widgets.refinementList({
+        container: '#servings-list',
+        attribute: 'servings',
+    })
+);
+
+search.addWidget(
     instantsearch.widgets.hits({
         container: '#hits',
         templates: {
+            empty: "No results",
             item: `
-        <div max-height="400px">
-          <div class="hit-image">
-            <img src="{{imageURL}}" align="left" max-height="100px" width="auto" alt="{{name}}" />
-          </div>
-          <div class="hit-name">
-            {{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}}
-          </div>
-        </div>
-      `,
+                <div>
+                    <img src="{{imageURL}}" align="left" height="100px" width="auto"  />
+                    <div class="hit-name" align="center">
+                        {{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}}
+                    </div>
+                    <div class="hit-time" align="center">
+                        {{time}} minutes
+                    </div>
+                </div>
+            `,
         },
     })
 );
