@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Modern Business - Start Bootstrap Template</title>
+  <title>CookSmart</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -71,22 +71,47 @@
 
   <!-- Page Content -->
   <div class="container">
+    <br>
 
-      <h3 style="color: #D65A02;" align="left"> Shopping List </h3>
-      <a href="shoppinglist.html">
-          <img border="0" alt="" src="print.png" width="100" height="100">
+    <div class="row" style="border-bottom:1pt solid black;">
+      <style type="text/css">
+        #header {display:inline-block; float:left;}
+        #print {display:inline-block; float:right;}
+        #copy {display:inline-block; float:right;  margin-right:0.5em;}
+        #email {display:inline-block; float:right;  margin-right:0.5em;}
+      </style>
+      <h3 id="header" style="color: #D65A02;" align="left"> Shopping List </h3>
+      <a id="print" href="shoppinglist.html">
+          <img border="0" alt="" src="https://cdn1.iconfinder.com/data/icons/social-productivity-line-art-2/128/printer-3-512.png" width="50px" height="50px">
+        </a>
+      &nbsp;
+      <a id="email" href="shoppinglist.html">
+          <img border="0" alt="" src="https://cdn3.iconfinder.com/data/icons/email-51/48/25-512.png" width="50px" height="50px">
+        </a>
+      &nbsp;
+      <a id="copy" href="shoppinglist.html">
+          <img border="0" alt="" src="https://cdn3.iconfinder.com/data/icons/files-folders-line/100/copy-512.png" width="50px" height="50px">
         </a>
 
-      <a href="shoppinglist.html">
-          <img border="0" alt="" src="email.png" width="100" height="100">
-        </a>
-
-      <a href="shoppinglist.html">
-          <img border="0" alt="" src="copy.png" width="100" height="100">
-        </a>
-
+        <br>
+    </div>
     <!-- /.row -->
 
+    <div id="list" style="float:left; width:45%;">
+        <h3 style="color: #355191;" align="left"> </h3>
+            <form name="myIngredients" action="" method="" align="left" style="color: #000000;">
+            <input type="checkbox" name="ingredients" value="1 Yellow Onion"  /> Onion <br />
+            <input type="checkbox" name="ingredients" value="1 Packet Chili Powder"  /> Powder <br />
+            <input type="checkbox" name="ingredients" value="2 Pounds Beef"  /> Beef <br />
+            <input type="checkbox" name="ingredients" value="1 Pound Scallops"  /> Scallop <br />
+            <input type="checkbox" name="ingredients" value="1 Stick of Butter"  /> Butter <br />
+            <input type="checkbox" name="ingredients" value="1/2 Gallon Milk"  /> Milk <br />
+            <input type="checkbox" name="ingredients" value="1 Quart Heavy Cream"  /> Cream 
+            </form>
+            
+     </div>
+     <!-- /.list -->
+     <button type="submit" class="btn btn-primary" style="background-color:white;color:black;width:150px;height:40px;align=left;" id="addIngredient">Add an Item</button>
   </div>
   <!-- /.container -->
 

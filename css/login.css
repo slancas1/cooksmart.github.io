@@ -51,7 +51,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 0px;
     margin-bottom: 10px;
-    width: 100%;
+    width: 5%;
     box-sizing: border-box;
     font-family: 'gfs_didotregular';
     color: #2C3E50;
@@ -107,7 +107,7 @@ body {
 .fs-title {
     font-size: 24px;
     text-transform: uppercase;
-    color: #2C3E50;
+    color: #d65a02;
     margin-bottom: 10px;
     letter-spacing: 2px;
     font-weight: bold;
@@ -212,16 +212,10 @@ body {
 .labels {
   display: inline-block;
   text-align: right;
-  width: 85%;
+  width: 80%;
+  padding: 5px;
   vertical-align: top;
-}
-
-.rightTab {
-  display: inline-block;
-  text-align: left;
-  width: 48%;
-  vertical-align: middle;
-  margin-left: 50px;
+  margin-left: 10px
 }
 
 
@@ -241,7 +235,7 @@ body {
 
 .input-field {
   height: 20px;
-  width: 280px;
+  width: 20px;
   padding: 5px;
   margin: 10px;
   border: 1px solid #c0c0c0;
@@ -252,11 +246,7 @@ body {
   width: 40px;
 }
 
-.userRatings,
-input[type="checkbox"] {
-  float: left;
-  margin-right: 5px;
-}
+
 
 #submit {
   background-color: #59ace0;
@@ -279,13 +269,6 @@ input[type="checkbox"] {
   border-radius: 2px;
 }
 
-.radio, .checkbox {
-  position: relative;
-  /* left: -43px; */
-  margin-left: 10px;
-  display: block;
-  padding-bottom: 10px;
-}
 
 @media screen and (max-width: 833px) {
   .input-field {
