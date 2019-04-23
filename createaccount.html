@@ -18,48 +18,89 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/modern-business.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <link href="css/util.css" rel="stylesheet">
+  <!-- <link href="css/main.css" rel="stylesheet"> -->
+  <!-- <link href="css/util.css" rel="stylesheet"> -->
   <link href="css/login.css" rel="stylesheet">
 
 
 </head>
 
 <body>
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3">
+        <div class="row justify-content-md-center">
+            <div class="col-md-8 col-md-offset-3">
                 <form id="msform">
                     <!-- progressbar -->
                     <ul id="progressbar">
-                        <li class="active">Personal Details</li>
-                        <li>Social Profiles</li>
-                        <li>Account Setup</li>
+                        <li class="active">Account Setup</li>
+                        <li>Dietary Preferences</li>
+                        <li>Personal Details</li>
                     </ul>
                     <!-- fieldsets -->
                     <fieldset>
-                        <h2 class="fs-title">Personal Details</h2>
-                        <h3 class="fs-subtitle">Tell us something more about you</h3>
+                        <h2 class="fs-title">Create Your Account</h2>
+                        <h3 class="fs-subtitle">Fill in your credentials.</h3>
                         <input type="text" name="fname" placeholder="First Name"/>
                         <input type="text" name="lname" placeholder="Last Name"/>
                         <input type="text" name="phone" placeholder="Phone"/>
-                        <input type="button" name="next" class="next action-button" value="Next"/>
-                    </fieldset>
-                    <fieldset>
-                        <h2 class="fs-title">Social Profiles</h2>
-                        <h3 class="fs-subtitle">Your presence on the social network</h3>
-                        <input type="text" name="twitter" placeholder="Twitter"/>
-                        <input type="text" name="facebook" placeholder="Facebook"/>
-                        <input type="text" name="gplus" placeholder="Google Plus"/>
-                        <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
-                        <input type="button" name="next" class="next action-button" value="Next"/>
-                    </fieldset>
-                    <fieldset>
-                        <h2 class="fs-title">Create your account</h2>
-                        <h3 class="fs-subtitle">Fill in your credentials</h3>
                         <input type="text" name="email" placeholder="Email"/>
                         <input type="password" name="pass" placeholder="Password"/>
                         <input type="password" name="cpass" placeholder="Confirm Password"/>
+                        <input type="button" name="next" class="next action-button" value="Next"/>
+                    </fieldset>
+                    <fieldset>
+                        <h2 class="fs-title">Meal Preferences</h2>
+                        <h3 class="fs-subtitle">Tell us what you like</h3>
+
+                        <div class="row">
+                          <div class="column left">
+                          <div class="labels">
+                            <label for="preferences">Dietary Restrictions<br>(Check all that apply): </label>
+                          </div></div>
+                          <div class="column right" style="text-align: left;">
+                            <ul id="preferences" style="list-style: none;">
+                              <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="dietary_restrictions">Vegetarian</label></li>
+                              <li class="checkbox"><input name="prefer" value="2" type="checkbox" class="dietary_restrictions">Vegan</li>
+                              <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="dietary_restrictions">Gluten-Free</label></li>
+                              <li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="dietary_restrictions">Pescetarian</label></li>
+                            </ul>
+                          </div>
+                          </div>
+                          <div class="row">
+                            <div class="column left">
+                          <div class="labels">
+                            <label for="userRating">Ideal time spent cooking a meal:</label>
+                          </div></div>
+                          <div class="column right" style="text-align: left;">
+                            <ul style="list-style: none;">
+                              <li class="radio"><label>10-20 minutes<input name="radio-buttons" value="10"  type="radio" class="time_cooking" ></label></li>
+                              <li class="radio"><label>20-30 minutes<input name="radio-buttons" value="20"  type="radio" class="time_cooking" ></label></li>
+                              <li class="radio"><label>30-40 minutes<input name="radio-buttons" value="30"  type="radio" class="time_cooking" ></label></li>
+                              <li class="radio"><label>40 + minutes<input name="radio-buttons" value="40"  type="radio" class="time_cooking" ></label></li>
+                            </ul>
+                            </div></div>
+                        <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
+                        <input type="button" name="next" class="next action-button" value="Next"/>
+
+                    </fieldset>
+                    <fieldset>
+                        <h2 class="fs-title">Personal Details</h2>
+                        <h3 class="fs-subtitle">Tell us more about you</h3>
+                        <div class="row">
+                          <div class="column left">
+                          <div class="labels">
+                            <label for="currentPos">Which option best describes your current role?</label>
+                          </div></div>
+                          <div class="column right" style="text-align: left;">
+                            <select id="dropdown" name="currentPos" class="dropdown">
+                              <option disabled value>Select an option</option>
+                              <option  value="student">Student</option>
+                              <option value="job">Full Time Job</option>
+                              <option value="learner">Full Time Learner</option>
+                              <option value="preferNo">Prefer not to say</option>
+                              <option value="other">Other</option>
+                            </select>
+                          </div>
+                        </div>
                         <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
                         <input type="submit" name="submit" class="submit action-button" value="Submit"/>
                     </fieldset>
