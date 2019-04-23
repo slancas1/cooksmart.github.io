@@ -50,19 +50,28 @@ search.addWidget(
         templates: {
             empty: "No results",
             item: `
-                <div>
-                    <img src="{{imageURL}}" align="left" height="100px" width="auto"  />
-                    <div class="hit-name" align="center">
-                        {{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}}
-                    </div>
-                    <div class="hit-time" align="center">
-                        {{time}} minutes
-                    </div>
+                <img src="{{imageURL}}" align="left" height="100px" width="auto" margin-right="30px" />
+                <div class="hit-name" align="left">
+                    {{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}}
+                </div>
+                <div class="hit-time" align="right">
+                    {{time}} minutes
                 </div>
             `,
         },
     })
 );
+
+window.onload = function () {
+    var results = document.getElementsByClassName('ais-Hits-item');
+    for (var i = 0; i < results.length; i++) {
+        var result = results[i];
+        result.onclick = function () {
+            var name = this.getElementsByClassName("hit-name");
+            alert(name[0].textContent);
+        }
+    }
+}
 
 search.addWidget(
     instantsearch.widgets.pagination({
