@@ -51,7 +51,7 @@
                         <h2 class="fs-title">Meal Preferences</h2>
                         <h3 class="fs-subtitle">Tell us what you like</h3>
 
-                        <div class="row">
+                        <div class="row" style="border-top:1pt solid black;">
                           <div class="column left">
                           <div class="labels">
                             <label for="preferences">Dietary Restrictions<br>(Check all that apply): </label>
@@ -65,10 +65,23 @@
                             </ul>
                           </div>
                           </div>
-                          <div class="row">
+                          <div class="row" style="border-top:1pt solid black;">
                             <div class="column left">
                           <div class="labels">
-                            <label for="userRating">Ideal time spent cooking a meal:</label>
+                            <label for="calories">Calories per Meal:</label>
+                          </div></div>
+                          <div class="column right" style="text-align: left;">
+                            <ul style="list-style: none;">
+                              <li class="radio"><label>300-400 calories<input name="radio-buttons" value="10"  type="radio" class="cals" ></label></li>
+                              <li class="radio"><label>400-500 calories<input name="radio-buttons" value="20"  type="radio" class="cals" ></label></li>
+                              <li class="radio"><label>500-600 calories<input name="radio-buttons" value="30"  type="radio" class="cals" ></label></li>
+                              <li class="radio"><label>600 + calories<input name="radio-buttons" value="40"  type="radio" class="cals" ></label></li>
+                            </ul>
+                            </div></div>
+                          <div class="row" style="border-top:1pt solid black;">
+                            <div class="column left">
+                          <div class="labels">
+                            <label for="timecook">Ideal time spent cooking a meal:</label>
                           </div></div>
                           <div class="column right" style="text-align: left;">
                             <ul style="list-style: none;">
@@ -85,7 +98,7 @@
                     <fieldset>
                         <h2 class="fs-title">Personal Details</h2>
                         <h3 class="fs-subtitle">Tell us more about you</h3>
-                        <div class="row">
+                        <div class="row" style="border-top:1pt solid black;">
                           <div class="column left">
                           <div class="labels">
                             <label for="currentPos">Which option best describes your current role?</label>
@@ -94,13 +107,46 @@
                             <select id="dropdown" name="currentPos" class="dropdown">
                               <option disabled value>Select an option</option>
                               <option  value="student">Student</option>
-                              <option value="job">Full Time Job</option>
-                              <option value="learner">Full Time Learner</option>
+                              <option value="job">Recent Grad</option>
+                              <option value="learner">Young Adult</option>
                               <option value="preferNo">Prefer not to say</option>
                               <option value="other">Other</option>
                             </select>
                           </div>
                         </div>
+                        <div class="row" style="border-top:1pt solid black;">
+                          <div class="column left">
+                        <div class="labels">
+                          <label for="timecook">What is your weekly food budget?</label>
+                        </div></div>
+                        <div class="column right" style="text-align: left;">
+                          <ul style="list-style: none;">
+                            <li class="radio"><label>$30-$40<input name="radio-buttons" value="bud30"  type="radio" class="budget" ></label></li>
+                            <li class="radio"><label>$40-$50<input name="radio-buttons" value="bud40"  type="radio" class="budget" ></label></li>
+                            <li class="radio"><label>$50-$60<input name="radio-buttons" value="bud0"  type="radio" class="budget" ></label></li>
+                            <li class="radio"><label>$60+<input name="radio-buttons" value="bud60"  type="radio" class="budget" ></label></li>
+                          </ul>
+                          </div></div>
+                        <div class="row" style="border-top:1pt solid black;">
+                          <div class="column left">
+                          <div class="labels">
+                            <label for="appliances">What appliances do you have?<br>(Check all that apply): </label>
+                          </div></div>
+                          <div class="column right" style="text-align: left;">
+                            <ul id="preferences" style="list-style: none;">
+                              <li class="checkbox"><label><input name="prefer" value="1=micro" type="checkbox" class="appliances">Microwave</label></li>
+                              <li class="checkbox"><input name="prefer" value="stove" type="checkbox" class="appliances">Stove</li>
+                              <li class="checkbox"><label><input name="prefer" value="oven" type="checkbox" class="appliances">Oven</label></li>
+                              <li class="checkbox"><label><input name="prefer" value="blender" type="checkbox" class="appliances">Blender</label></li>
+                              <li class="checkbox"><label><input name="prefer" value="mixer" type="checkbox" class="appliances">Mixer</label></li>
+                              <li class="checkbox"><label><input name="prefer" value="grill" type="checkbox" class="appliances">Grill</label></li>
+                              <li class="checkbox"><label><input name="prefer" value="toaster" type="checkbox" class="appliances">Toaster</label></li>
+                              <li class="checkbox"><label><input name="prefer" value="foodproc" type="checkbox" class="appliances">Food Processer</label></li>
+                              <li class="checkbox"><label><input name="prefer" value="slowcook" type="checkbox" class="appliances">Slow Cooker</label></li>
+
+                            </ul>
+                          </div>
+                          </div>
                         <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
                         <input type="submit" name="submit" class="submit action-button" value="Submit"/>
                     </fieldset>

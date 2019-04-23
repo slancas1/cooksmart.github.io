@@ -105,7 +105,7 @@ body {
 
 /*headings*/
 .fs-title {
-    font-size: 18px;
+    font-size: 24px;
     text-transform: uppercase;
     color: #2C3E50;
     margin-bottom: 10px;
@@ -115,7 +115,7 @@ body {
 
 .fs-subtitle {
     font-weight: normal;
-    font-size: 13px;
+    font-size: 18px;
     color: #666;
     margin-bottom: 20px;
 }
@@ -223,6 +223,7 @@ body {
   vertical-align: middle;
   margin-left: 50px;
 }
+
 
 .column {
   float: left;
