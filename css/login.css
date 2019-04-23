@@ -281,7 +281,7 @@ input[type="checkbox"] {
 
 .radio, .checkbox {
   position: relative;
-  /* left: -43px; */
+  left: -43px;
   margin-left: 10px;
   display: block;
   padding-bottom: 10px;
