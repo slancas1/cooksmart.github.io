@@ -77,8 +77,8 @@ button {
 
 .card {
   position: relative;
-  /* width: 300px;
-  height: 300px; */
+  width: 300px;
+  height: 300px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -89,17 +89,7 @@ button {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
-  width: 100%;
-  height: auto;
-  object-fit: fill;
 }
-
-/* .card-img-top {
-  width: 100%;
-  height: auto;
-  object-fit: fill;
-} */
-
 
 .btn-login {
   color: #fff;
