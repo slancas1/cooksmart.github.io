@@ -76,5 +76,6 @@ $(".previous").click(function(){
 });
 
 $(".submit").click(function(){
+	window.location.href = "homepage.html";
 	return false;
 })
