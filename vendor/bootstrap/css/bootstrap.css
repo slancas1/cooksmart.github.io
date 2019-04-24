@@ -24,7 +24,7 @@
   --info: #17a2b8;
   --warning: #ffc107;
   --danger: #dc3545;
-  --light: #DDDDDD;
+  --light: #f4c9ab;
   --dark: #343a40;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
@@ -63,7 +63,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #feba8b;
 }
 
 [tabindex="-1"]:focus {
@@ -6462,7 +6462,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #DDDDDD !important;
+  background-color: #f4c9ab !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
