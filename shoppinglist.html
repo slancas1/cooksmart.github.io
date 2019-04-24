@@ -150,7 +150,7 @@
             box.setAttribute('type', 'checkbox');       // SPECIFY THE TYPE OF ELEMENT.
             box.setAttribute('value', addIng.value);
             box.setAttribute('name', 'ingredients');
-            box.setAttribute('id', addIng.value + 1);
+            box.setAttribute('id', addIng.value + i);
 
             var lbl = document.createElement('label');  // CREATE LABEL.
             lbl.setAttribute('for', i);
@@ -166,6 +166,7 @@
             addIng.value = '';
 
         i = i + 1;
+        document.getElementById(addIng.id).focus();
         }
     }
 </script>
