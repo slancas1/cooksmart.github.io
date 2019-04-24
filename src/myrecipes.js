@@ -22,7 +22,7 @@ function loadJSON(callback) {
     };
     xobj.send(null);
 }
-        
+
 window.onload = function () {
     loadJSON(function (response) {
         var data = JSON.parse(response);
@@ -48,14 +48,14 @@ window.onload = function () {
                     #name {display: inline-block; float:left;} \
                             #time {display: inline-block; float:right;} \
                         </style> \
-                    <img src="' + recipe.imageURL + '" align="left" height="100px" width="100px" margin-right="30px" /> \
+                    <img src="' + recipe.imageURL + '" class="recipeimg" align="left" height="100px" width="100px" margin-right="30px" /> \
                     <div class="hit-name" align="left" style="font-size:26px" id="name"> \
                         &nbsp; \
                         &nbsp; \
                         &nbsp; \
                             ' + title + ' \
                         </div> \
-                    <button type="submit" class="btn-danger" id="delete" name="' + title + '" syle="align:right">Delete</button>';
+                    <button type="submit" class="btn-login" id="delete" name="' + title + '" syle="align:right">Delete</button>';
                 document.getElementById("hits").appendChild(node);
             }
         }

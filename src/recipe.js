@@ -29,6 +29,8 @@ window.onload = function () {
             myRecipes.push(localStorage.getItem("storageName").trim());
             localStorage.setItem("myRecipes", JSON.stringify(myRecipes));
         }
+        $("#topdiv").append("<div class='alert alert-success alert-fade' id='myAlert3' style='width:50%;'> <button type='button' class='close' data-dismiss='alert'  aria-hidden='true'>&times;</button> <strong>Success!</strong> Recipe added to list.</div>");
+
     }
     loadJSON(function (response) {
         var data = JSON.parse(response);
