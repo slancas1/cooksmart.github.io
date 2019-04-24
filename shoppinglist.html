@@ -141,7 +141,6 @@
 </body>
 
 <script>
-    var i = 8
     function createBox(addIng) {
         
         if (addIng.value !== '') {
@@ -150,10 +149,9 @@
             box.setAttribute('type', 'checkbox');       // SPECIFY THE TYPE OF ELEMENT.
             box.setAttribute('value', addIng.value);
             box.setAttribute('name', 'ingredients');
-            box.setAttribute('id', addIng.value + i);
 
             var lbl = document.createElement('label');  // CREATE LABEL.
-            lbl.setAttribute('for', i);
+            lbl.setAttribute('for', addIng.value);
 
             // CREATE A TEXT NODE AND APPEND IT TO THE LABEL.
             lbl.appendChild(document.createTextNode(addIng.value));
@@ -162,11 +160,6 @@
             var theList = document.getElementById("list");
             theList.appendChild(box);
             theList.appendChild(lbl);
-
-            addIng.value = '';
-
-        i = i + 1;
-        document.getElementById(addIng.id).focus();
         }
     }
 </script>
