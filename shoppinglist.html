@@ -159,12 +159,12 @@
             lbl.appendChild(document.createTextNode(addIng.value));
 
             // APPEND THE NEWLY CREATED CHECKBOX AND LABEL TO THE <p> ELEMENT.
-            var theList = document.getElementById("listForm");
+            var theList = document.getElementById("list");
             theList.appendChild(box);
             theList.appendChild(lbl);
 
             addIng.value = '';
-            document.getElementById(addIng.id).focus();
+
         i = i + 1;
         }
     }
