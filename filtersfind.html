@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" href="./src/algolia-min.css">
+    <link rel="stylesheet" href="./src/index.css">
+    <link rel="stylesheet" href="./src/app.css">
+
+    <title>CookSmart</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/modern-business.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="homepage.html"><img src="logo.png" alt="CookSmart"></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="find.html" style="color: #696969; font-size:26px;"> Find &nbsp;&nbsp;</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="myrecipes.html" style="color: #696969; font-size:26px;">My Recipes &nbsp;&nbsp;</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shoppinglist.html" style="color: #696969; font-size:26px;">Shopping List &nbsp;&nbsp;</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html" style="color: #696969; font-size:26px;">My Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Page Content -->
+    <br>
+    <br>
+    <div class="ais-InstantSearch">
+        <!-- Search Bar -->
+        <div id="cover">
+            <form method="get" action="">
+                <div class="tb">
+                    <div class="td" id="searchbox"><input type="text" placeholder="Search" required></div>
+                </div>
+            </form>
+        </div>
+
+        <!-- Content Row -->
+        <div class="row">
+            <!-- Sidebar Column -->
+            <div class="col-lg-3 mb-4" padding-left="50px">
+                <div class="list-group">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="button-group">
+                                    <button type="button" style="color: #696969; font-size:26px;" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" name="calories"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span>Calories</button>
+                                    <div class="dropdown-menu" id="calories-list"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="button-group">
+                                    <button type="button" style="color: #696969; font-size:26px;" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" name="time"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span>Time (minutes)</button>
+                                    <div class="dropdown-menu" id="time-list"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="button-group">
+                                    <button type="button" style="color: #696969; font-size:26px;" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" name="budget"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span>Total Price ($)</button>
+                                    <div class="dropdown-menu" id="price-list"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="button-group">
+                                    <button type="button" style="color: #696969; font-size:26px;" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" name="servings"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span>Servings</button>
+                                    <div class="dropdown-menu" id="servings-list"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="button-group">
+                                    <button type="button" style="color: #696969; font-size:26px;" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" name="appliances"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span>Appliances</button>
+                                    <div class="dropdown-menu" id="appliances-list"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" style="background-color:#D65A02; color:#e7e6e6; font-size:18px;" onclick="alert('You pressed the button!')">Apply My Filters</button>
+            </div>
+            <!-- Content Column -->
+            <div class="col-lg-9 mb-4" id="hits">
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+    <div id="pagination"> </div>
+    <!-- /.container -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/algoliasearch/3.32.0/algoliasearchLite.min.js"></script>
+    <script src="./src/instantsearch.js"></script>
+    <script src="./src/app.js"></script>
+</body>
+
+</html>
