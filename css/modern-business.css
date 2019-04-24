@@ -61,6 +61,11 @@ button {
   background-size: cover;
 }
 
+.list-group {
+    color: #d65a02;
+    font-family: 'gfs_didotregular';
+}
+
 .carousel-caption{
 				position: absolute;
 				right: 0;
