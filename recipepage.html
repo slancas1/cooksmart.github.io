@@ -54,84 +54,68 @@
 
   <!-- Page Content -->
   <div class="container">
-      <center>
-      <br>
-      <br>
-      <br>
-      <img id="image" alt="" align="middle" height="300" width="450">
-      <br>
-      <br>
-      <h3 style="color: #355191;" id="title">  </h3>
-      <p style="color: #355191;" id="info"> </p>
-      <button type="submit" class="btn btn-primary" id="addToRecipes">Add to My Recipes</button>
-
-      <br>
-      <br>
-        <div id="left" style="float:left; width:45%;">
-            <h3 style="color: #355191;" align="left"> <b> Appliances Required </b> </h3>
-                <form name="myAppliances" action="" method="" align="left" style="color: #355191;" id="appliances">
-                </form>
-
+      <div class="row">
+          <center>
+            <br>
+            <br>
+            <br>
+            <img id="image" alt="" align="middle" height="300" width="450">
+            <br>
+            <br>
+            <h3 style="color: #355191;" id="title">  </h3>
+            <p style="color: #355191;" id="info"> </p>
+            <button type="submit" class="btn btn-primary" id="addToRecipes">Add to My Recipes</button>
+            <br>
+            <br>
+            <div id="left" style="float:left; width:45%;">
+                <h3 style="color: #355191;" align="left"> <b> Appliances Required </b> </h3>
+                <form name="myAppliances" action="" method="" align="left" style="color: #355191;" id="appliances"></form>
                 <br>
-
-            <h3 style="color: #355191;" align="left"> <b> Ingredients </b> </h3>
-                <form name="myIngredients" action="" method="" align="left" style="color: #355191;" id="ingredients">
-                </form>
-        </div>
-
-      <div id="right" style="float:right; width:55%;">
-          <h3 style="color: #355191;"><b>Directions</b></h3>
-          <p style="color: #355191;" align="left" id="directions"></p>
-    </div>
-
-    <br>
-    <br>
-    <h4 style="color: #D65A02;" align="left"> <b> More Like This </b> </h4>
-
-
-    <div class="row">
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <a href="recipepage.html"><img class="card-img-top" src="http://www.chatelaine.com/wp-content/uploads/2013/05/Curried-chicken-salad.jpg" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-                <a href="recipepage.html"> Curried chicken salad </a>
-            </h4>
-          </div>
-        </div>
+                <h3 style="color: #355191;" align="left"> <b> Ingredients </b> </h3>
+                <form name="myIngredients" action="" method="" align="left" style="color: #355191;" id="ingredients"></form>
+            </div>
+            <div id="right" style="float:right; width:55%;">
+                <h3 style="color: #355191;"><b>Directions</b></h3>
+                <p style="color: #355191;" align="left" id="directions"></p>
+            </div>
+          </center>
       </div>
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <a href="#"><img class="card-img-top" height="100" width="100" src="https://storage-cube.quebecormedia.com/v1/dynamic_resize?quality=75&size=1500x1500&src=http%3A%2F%2Fstorage-cube.quebecormedia.com" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-                <a href="#"> Blueberry Oatmeal Squares </a>
-            </h4>
+
+      <h4 style="color: #D65A02;" align="center"> <b> More Like This </b> </h4>
+      <div class="row" width="100%">
+          <div class="col-lg-4 col-sm-6 portfolio-item" align="left">
+              <div class="card h-100" id="button" name="Curried chicken salad">
+                  <img class="card-img-top" src="http://www.chatelaine.com/wp-content/uploads/2013/05/Curried-chicken-salad.jpg" alt="">
+                  <div class="card-body">
+                      <h4 class="card-title"> Curried chicken salad </h4>
+                  </div>
+              </div>
           </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <a href="#"><img class="card-img-top" height="100" width="100" src="http://s3.amazonaws.com/gmi-digital-library/65caecf7-a8f7-4a09-8513-2659cf92871e.jpg" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-                <a href="#">Old-Fashioned Oatmeal Cookies</a>
-            </h4>
+          <div class="col-lg-4 col-sm-6 portfolio-item" align="center">
+              <div class="card h-100" id="button" name="Blueberry Oatmeal Squares">
+                  <img class="card-img-top" src="https://storage-cube.quebecormedia.com/v1/dynamic_resize?quality=75&size=1500x1500&src=http%3A%2F%2Fstorage-cube.quebecormedia.com%2Fv1%2Fcl_prod%2Fcanadian_living%2Fec57f7d6-e56e-4b5e-9a51-fb1300b3e421%2Fblueberry-oatmeal-squares2501359401339.jpg" alt="">
+                  <div class="card-body">
+                      <h4 class="card-title"> Blueberry Oatmeal Squares </h4>
+                  </div>
+              </div>
           </div>
-        </div>
+          <div class="col-lg-4 col-sm-6 portfolio-item" align="right">
+              <div class="card h-100" id="button" name="Old-Fashioned Oatmeal Cookies">
+                  <img class="card-img-top" src="http://s3.amazonaws.com/gmi-digital-library/65caecf7-a8f7-4a09-8513-2659cf92871e.jpg" alt="">
+                  <div class="card-body">
+                      <h4 class="card-title"> Old-Fashioned Oatmeal Cookies </h4>
+                  </div>
+              </div>
+          </div>
       </div>
-  </div>
+</div>
 
-  </center>
-
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/algoliasearch/3.32.0/algoliasearchLite.min.js"></script>
-    <script src="./src/instantsearch.js"></script>
-  <script src="./src/recipe.js"></script>
-
+      <!-- Bootstrap core JavaScript -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/algoliasearch/3.32.0/algoliasearchLite.min.js"></script>
+      <script src="./src/instantsearch.js"></script>
+      <script src="./src/recipe.js"></script>
 </body>
 
 </html>

@@ -13,6 +13,15 @@ function loadJSON(callback) {
 }
 
 window.onload = function () {
+    var cards = document.getElementsByClassName('card h-100');
+    for (var i = 0; i < cards.length; i++) {
+        var card = cards[i];
+        card.onclick = function () {
+            var name = this.getAttribute('name');
+            localStorage.setItem("storageName", name);
+            window.location.href = "recipepage.html";
+        }
+    }
     loadJSON(function (response) {
         var data = JSON.parse(response);
         var title = localStorage.getItem("storageName").trim();
