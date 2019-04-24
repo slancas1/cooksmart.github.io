@@ -104,6 +104,7 @@
             <!--popup's close button-->
             <input type="text" placeholder="Email" id="textbox">
             <button class="btn-login" id="send" value="send">Send</button>
+            <button class="btn-primary1" value="Close" id="close4">Cancel</button>
           </div></div>
           <div class="popup-overlay" id="popup4">
             <!--Creates the popup content-->
@@ -128,6 +129,9 @@
             });
             $("#close3").on("click", function(){
               $("#popup4, #popup5").removeClass("active");
+            });
+            $("#close4").on("click", function(){
+              $("#popup2, #popup3").removeClass("active");
             });
             </script>
         &nbsp;
