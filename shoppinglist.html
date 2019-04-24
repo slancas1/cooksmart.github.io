@@ -120,7 +120,7 @@
             <input type="checkbox" name="ingredients" value="1 Pound Scallops"  /> Scallop <br />
             <input type="checkbox" name="ingredients" value="1 Stick of Butter"  /> Butter <br />
             <input type="checkbox" name="ingredients" value="1/2 Gallon Milk"  /> Milk <br />
-            <input type="checkbox" name="ingredients" value="1 Quart Heavy Cream"  /> Cream 
+            <input type="checkbox" name="ingredients" value="1 Quart Heavy Cream"  /> Cream <br />
             </form>
             
      </div>
@@ -150,16 +150,9 @@
             box.setAttribute('value', addIng.value);
             box.setAttribute('name', 'ingredients');
 
-            var lbl = document.createElement('label');  // CREATE LABEL.
-            lbl.setAttribute('for', addIng.value);
-
-            // CREATE A TEXT NODE AND APPEND IT TO THE LABEL.
-            lbl.appendChild(document.createTextNode(addIng.value));
-
             // APPEND THE NEWLY CREATED CHECKBOX AND LABEL TO THE <p> ELEMENT.
             var theList = document.getElementById("list");
             theList.appendChild(box);
-            theList.appendChild(lbl);
         }
     }
 </script>
