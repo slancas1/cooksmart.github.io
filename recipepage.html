@@ -64,7 +64,7 @@
             <br>
             <h3 style="color: #696969;" id="title">  </h3>
             <p style="color: #696969;" id="info"> </p>
-            <button type="submit" class="btn btn-primary" id="addToRecipes" style="background-color: #d65a02; color: #e7e6e6">Add to My Recipes</button>
+            <button type="submit" class="btn btn-primary" id="addToRecipes" style="background-color: #d65a02; color: #e7e6e6" onclick="setColor('addToRecipes', '#696969')">Add to My Recipes</button>
             <br>
             <br>
             <div id="left" style="float:left; width:45%;">
@@ -74,8 +74,16 @@
                 <h3 style="color: #696969;" align="left"> <b> Ingredients </b> </h3>
                 <form name="myIngredients" action="" method="" align="left" style="color: #696969;" id="ingredients"></form>
                 <br>
-                <button type="button" style="background-color:#D65A02; color:#e7e6e6; font-size:18px;">Add To Shopping List</button>
+                <button type="button" id="addToShoppingList" style="background-color:#D65A02; color:#e7e6e6; font-size:18px;" onclick="setColor('addToShoppingList', '#696969')">Add To Shopping List</button>
             </div>
+
+            <script>
+                function setColor(btn, color) {
+                    var property = document.getElementById(btn);
+                    property.style.backgroundColor = color
+                }
+            </script>
+
             <div id="right" style="float:right; width:55%;">
                 <h3 style="color: #696969;"><b>Directions</b></h3>
                 <p style="color: #696969;" align="left" id="directions"></p>
