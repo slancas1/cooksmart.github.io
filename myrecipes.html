@@ -1,223 +1,136 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <link rel="stylesheet" href="./src/algolia-min.css">
+    <link rel="stylesheet" href="./src/index.css">
+    <link rel="stylesheet" href="./src/app.css">
 
-  <title>CookSmart</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/modern-business.css" rel="stylesheet">
-
+    <title>CookSmart</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/modern-business.css" rel="stylesheet">
 </head>
 
 <body>
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-      <a class="navbar-brand" href="homepage.html"><img src= "logo.png" alt="CookSmart"></a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="find.html" style="color: #696969; font-size:26px;">Find &nbsp;&nbsp;</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="myrecipes.html" style="color: #696969; font-size:26px;">My Recipes &nbsp;&nbsp;</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="shoppinglist.html" style="color: #696969; font-size:26px;">Shopping List &nbsp;&nbsp;</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="profile.html" style="color: #696969; font-size:26px;">My Profile</a>
-          </li>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="homepage.html"><img src="logo.png" alt="CookSmart"></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="find.html" style="color: #696969; font-size:26px;"> Find &nbsp;&nbsp;</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="myrecipes.html" style="color: #696969; font-size:26px;">My Recipes &nbsp;&nbsp;</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shoppinglist.html" style="color: #696969; font-size:26px;">Shopping List &nbsp;&nbsp;</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html" style="color: #696969; font-size:26px;">My Profile</a>
+                    </li>
                 </ul>
-            </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Page Content -->
-  <div class="container">
-
-  <!-- Search Bar -->
-  <div id="cover">
-  <form method="get" action="">
-    <div class="tb">
-      <div class="td"><input type="text" placeholder="Search" required></div>
-      <div class="td" id="s-cover">
-        <button type="submit">
-          <div id="s-circle"></div>
-          <span></span>
-        </button>
-      </div>
-    </div>
-  </form>
-</div>
-
-
-    <!-- Content Row -->
-    <div class="row">
-      <!-- Sidebar Column -->
-      <div class="col-lg-3 mb-4">
-        <div class="list-group">
-          <div class="container">
-            <div class="row">
-                 <div class="col-lg-12">
-               <div class="button-group">
-                  <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" name="calories"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span>Calories</button>
-          <ul class="dropdown-menu">
-            <li><a href="#" class="small" data-value="100-200" tabIndex="-1"><input type="checkbox"/>&nbsp;100-200</a></li>
-            <li><a href="#" class="small" data-value="200-300" tabIndex="-1"><input type="checkbox"/>&nbsp;200-300</a></li>
-            <li><a href="#" class="small" data-value="300-400" tabIndex="-1"><input type="checkbox"/>&nbsp;300-400</a></li>
-            <li><a href="#" class="small" data-value="400-500" tabIndex="-1"><input type="checkbox"/>&nbsp;400-500</a></li>
-            <li><a href="#" class="small" data-value="500-600" tabIndex="-1"><input type="checkbox"/>&nbsp;500-600</a></li>
-            <li><a href="#" class="small" data-value="600-700" tabIndex="-1"><input type="checkbox"/>&nbsp;600-700</a></li>
-          </ul>
             </div>
-          </div>
-            </div>
-          </div>
-
-          <div class="container">
-            <div class="row">
-                 <div class="col-lg-12">
-               <div class="button-group">
-                  <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" name="appliances"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span>Appliances</button>
-          <ul class="dropdown-menu">
-            <li><a href="#" class="small" data-value="stove" tabIndex="-1"><input type="checkbox"/>&nbsp;Stove</a></li>
-            <li><a href="#" class="small" data-value="skillet" tabIndex="-1"><input type="checkbox"/>&nbsp;Skillet</a></li>
-            <li><a href="#" class="small" data-value="whisk" tabIndex="-1"><input type="checkbox"/>&nbsp;Whisk</a></li>
-            <li><a href="#" class="small" data-value="oven" tabIndex="-1"><input type="checkbox"/>&nbsp;Oven</a></li>
-            <li><a href="#" class="small" data-value="blender" tabIndex="-1"><input type="checkbox"/>&nbsp;Blender</a></li>
-            <li><a href="#" class="small" data-value="microwave" tabIndex="-1"><input type="checkbox"/>&nbsp;Microwave</a></li>
-          </ul>
-            </div>
-          </div>
-            </div>
-          </div>
-
-          <div class="container">
-            <div class="row">
-                 <div class="col-lg-12">
-               <div class="button-group">
-                  <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" name="time"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span>Time</button>
-          <ul class="dropdown-menu">
-            <li><a href="#" class="small" data-value="10-20 mins" tabIndex="-1"><input type="checkbox"/>&nbsp;10-20 mins</a></li>
-            <li><a href="#" class="small" data-value="20-30 mins" tabIndex="-1"><input type="checkbox"/>&nbsp;20-30 mins</a></li>
-            <li><a href="#" class="small" data-value="30-40 mins" tabIndex="-1"><input type="checkbox"/>&nbsp;30-40 mins</a></li>
-            <li><a href="#" class="small" data-value="40-50 mins" tabIndex="-1"><input type="checkbox"/>&nbsp;40-50 mins</a></li>
-            <li><a href="#" class="small" data-value="50-60 mins" tabIndex="-1"><input type="checkbox"/>&nbsp;50-60 mins</a></li>
-          </ul>
-            </div>
-          </div>
-            </div>
-          </div>
-
-          <div class="container">
-            <div class="row">
-                 <div class="col-lg-12">
-               <div class="button-group">
-                  <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" name="ingredients"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span>Ingredients</button>
-          <ul class="dropdown-menu">
-            <li><a href="#" class="small" data-value="salt" tabIndex="-1"><input type="checkbox"/>&nbsp;Salt</a></li>
-            <li><a href="#" class="small" data-value="pepper" tabIndex="-1"><input type="checkbox"/>&nbsp;Pepper</a></li>
-            <li><a href="#" class="small" data-value="chicken" tabIndex="-1"><input type="checkbox"/>&nbsp;Chicken</a></li>
-            <li><a href="#" class="small" data-value="rice" tabIndex="-1"><input type="checkbox"/>&nbsp;Rice</a></li>
-            <li><a href="#" class="small" data-value="olive oil" tabIndex="-1"><input type="checkbox"/>&nbsp;Olive Oil</a></li>
-            <li><a href="#" class="small" data-value="eggs" tabIndex="-1"><input type="checkbox"/>&nbsp;Eggs</a></li>
-          </ul>
-            </div>
-          </div>
-            </div>
-          </div>
-
-          <div class="container">
-            <div class="row">
-                 <div class="col-lg-12">
-               <div class="button-group">
-                  <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" name="budget"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span>Budget</button>
-          <ul class="dropdown-menu">
-            <li><a href="#" class="small" data-value="$5-$10" tabIndex="-1"><input type="checkbox"/>&nbsp;$5-$10</a></li>
-            <li><a href="#" class="small" data-value="$10-$15" tabIndex="-1"><input type="checkbox"/>&nbsp;$10-$15</a></li>
-            <li><a href="#" class="small" data-value="$15-$20" tabIndex="-1"><input type="checkbox"/>&nbsp;$15-$20</a></li>
-            <li><a href="#" class="small" data-value="$20-$25" tabIndex="-1"><input type="checkbox"/>&nbsp;$20-$25</a></li>
-            <li><a href="#" class="small" data-value="$25-$30" tabIndex="-1"><input type="checkbox"/>&nbsp;$25-$30</a></li>
-            <li><a href="#" class="small" data-value="$30-$35" tabIndex="-1"><input type="checkbox"/>&nbsp;$30-$35</a></li>
-          </ul>
-            </div>
-          </div>
-            </div>
-          </div>
-
-          <div class="container">
-            <div class="row">
-                 <div class="col-lg-12">
-               <div class="button-group">
-                  <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" name="rating"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span>Rating</button>
-          <ul class="dropdown-menu">
-            <li><a href="#" class="small" data-value="3 stars" tabIndex="-1"><input type="checkbox"/>&nbsp;3 stars</a></li>
-            <li><a href="#" class="small" data-value="4 stars" tabIndex="-1"><input type="checkbox"/>&nbsp;4 stars</a></li>
-            <li><a href="#" class="small" data-value="5 stars" tabIndex="-1"><input type="checkbox"/>&nbsp;5 stars</a></li>
-          </ul>
-            </div>
-          </div>
-            </div>
-          </div>
-
-          <div class="container">
-            <div class="row">
-                 <div class="col-lg-12">
-               <div class="button-group">
-                  <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" name="servings"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span>Servings</button>
-          <ul class="dropdown-menu">
-            <li><a href="#" class="small" data-value="1" tabIndex="-1"><input type="checkbox"/>&nbsp;1</a></li>
-            <li><a href="#" class="small" data-value="2" tabIndex="-1"><input type="checkbox"/>&nbsp;2</a></li>
-            <li><a href="#" class="small" data-value="3" tabIndex="-1"><input type="checkbox"/>&nbsp;3</a></li>
-            <li><a href="#" class="small" data-value="4" tabIndex="-1"><input type="checkbox"/>&nbsp;4</a></li>
-            <li><a href="#" class="small" data-value="5" tabIndex="-1"><input type="checkbox"/>&nbsp;5</a></li>
-            <li><a href="#" class="small" data-value="6+" tabIndex="-1"><input type="checkbox"/>&nbsp;6+</a></li>
-          </ul>
-            </div>
-          </div>
-            </div>
-          </div>
         </div>
-      </div>
-      <!-- Content Column -->
-      <div class="col-lg-9 mb-4">
-        <h2>Section Heading</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, et temporibus, facere perferendis veniam beatae non debitis, numquam blanditiis necessitatibus vel mollitia dolorum laudantium, voluptate dolores iure maxime ducimus fugit.</p>
-      </div>
-    </div>
-    <!-- /.row -->
+    </nav>
+    <!-- Page Content -->
+    <br>
+    <br>
+    <div class="ais-InstantSearch">
+        <!-- Search Bar -->
+        <div id="cover">
+            <form method="get" action="">
+                <div class="tb">
+                    <div class="td" id="searchbox"><input type="text" placeholder="Search" required></div>
+                </div>
+            </form>
+        </div>
 
-  </div>
-  <!-- /.container -->
-
-  <!-- Footer -->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+        <!-- Content Row -->
+        <div class="row">
+            <!-- Sidebar Column -->
+            <div class="col-lg-3 mb-4" padding-left="50px">
+                <div class="list-group">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="button-group">
+                                    <button type="button" style="color: #696969; font-size:26px;" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" name="calories"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span>Calories</button>
+                                    <div class="dropdown-menu" id="calories-list"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="button-group">
+                                    <button type="button" style="color: #696969; font-size:26px;" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" name="time"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span>Time (minutes)</button>
+                                    <div class="dropdown-menu" id="time-list"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="button-group">
+                                    <button type="button" style="color: #696969; font-size:26px;" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" name="budget"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span>Total Price ($)</button>
+                                    <div class="dropdown-menu" id="price-list"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="button-group">
+                                    <button type="button" style="color: #696969; font-size:26px;" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" name="servings"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span>Servings</button>
+                                    <div class="dropdown-menu" id="servings-list"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="button-group">
+                                    <button type="button" style="color: #696969; font-size:26px;" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" name="appliances"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span>Appliances</button>
+                                    <div class="dropdown-menu" id="appliances-list"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="apply-filters" href="filtersfind.html">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" style="background-color:#D65A02; color:#e7e6e6; font-size:18px;">Apply My Filters</button>
+                </a>
+            </div>
+            <!-- Content Column -->
+            <div class="col-lg-9 mb-4" id="hits">
+            </div>
+        </div>
+        <!-- /.row -->
     </div>
+    <div id="pagination"> </div>
     <!-- /.container -->
-  </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/algoliasearch/3.32.0/algoliasearchLite.min.js"></script>
+    <script src="./src/instantsearch.js"></script>
+    <script src="./src/app.js"></script>
 </body>
 
 </html>
