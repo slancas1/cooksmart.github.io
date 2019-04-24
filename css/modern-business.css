@@ -157,3 +157,8 @@ button {
 .portfolio-item {
   margin-bottom: 30px;
 }
+
+.row-border {
+  border-bottom-style: solid;
+  border-bottom-color: #d65a02;
+}

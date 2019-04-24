@@ -12,9 +12,23 @@
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <!-- Custom styles for this template -->
   <link href="css/modern-business.css" rel="stylesheet">
+  <script type="text/javascript">
+
+      $('.btnSave').click(function() {
+          addCheckbox($('#txtName').val());
+      });
+
+
+    function addCheckbox(name) {
+       var container = $('#list');
+       var inputs = container.find('input');
+       var id = inputs.length+1;
+       $('#list').append('<input type="checkbox" name="ingredients" value="&nbsp; ' + name +'"/> ' + name + '<br />');
+    }
+  </script>
 
 </head>
 
@@ -49,44 +63,70 @@
   <!-- Page Content -->
   <div class="container">
     <br>
-
-      <style type="text/css">
+    <div class="row">
+      <div class="column left" style="text-align:left;">
+      <div class="labels">
+        <h3 id="header" style="color: #D65A02;" align="left"> Shopping List </h3>      </div></div>
+      <div class="column right" style="text-align: right;">
+      <!-- <style type="text/css">
         #header {display:inline-block; float:left;}
         #print {display:inline-block; float:right;}
         #copy {display:inline-block; float:right;  margin-right:0.5em;}
         #email {display:inline-block; float:right;  margin-right:0.5em;}
-      </style>
-      <h3 id="header" style="color: #D65A02;" align="left"> Shopping List </h3>
-      <a href="shoppinglist.html" id="print" >
-          <img border="0" alt="" src="https://cdn1.iconfinder.com/data/icons/social-productivity-line-art-2/128/printer-3-512.png" width="50px" height="50px">
-        </a>
-      &nbsp;
-      <a href="shoppinglist.html"  id="email">
-          <img border="0" alt="" src="https://cdn3.iconfinder.com/data/icons/email-51/48/25-512.png" width="50px" height="50px">
-        </a>
-      &nbsp;
-      <a href="shoppinglist.html" id="copy">
-          <img align="right" border="0" alt="" src="https://cdn3.iconfinder.com/data/icons/files-folders-line/100/copy-512.png" width="50px" height="50px">
-        </a>
+      </style> -->
 
-        <br>
-
+        <a href="shoppinglist.html" id="print" >
+            <img border="0" alt="" src="img/print.png" width="50px" height="50px">
+        </a>
+        &nbsp;
+        <a href="shoppinglist.html"  id="email">
+            <img border="0" alt="" src="img/email.png" width="50px" height="50px">
+        </a>
+        &nbsp;
+        <a href="shoppinglist.html" id="copy">
+            <img align="right" border="0" alt="" src="img/copy.png" width="50px" height="50px">
+          </a>
+        </div></div>
+      <div class="row-border"></div>
+<br/>
     <!-- /.row -->
-
-    <div id="list" style="float:left; width:45%;">
-        <form name="myIngredients" id="listForm" action="" method="" align="left" style="color: #696969;">
-        <input type="checkbox" name="ingredients" value="&nbsp; 1 Yellow Onion"  />1 Yellow Onion <br />
+    <div class="row">
+      <div class="column left" style="text-align:left;">
+    <div id="list" style="float:left; width:45%; margin-left:30px">
+        <input type="checkbox" name="ingredients" value="&nbsp; 1 Yellow Onion"  />1 Yellow Onion<br/>
         <input type="checkbox" name="ingredients" value="&nbsp; 1 Packet Chili Powder"  />1 Packet Chili Powder <br />
         <input type="checkbox" name="ingredients" value="&nbsp; 2 Pounds Beef"  />2 Pounds Beef <br />
         <input type="checkbox" name="ingredients" value="&nbsp; 1 Pound Scallops"  />1 Pound Scallops <br />
         <input type="checkbox" name="ingredients" value="&nbsp; 1 Stick of Butter"  />1 Stick of Butter <br />
         <input type="checkbox" name="ingredients" value="&nbsp; 1/2 Gallon Milk"  />1/2 Gallon Milk <br />
         <input type="checkbox" name="ingredients" value="&nbsp; 1 Quart Heavy Cream"  />1 Quart Heavy Cream <br />
-        </form>
 
-        <br />
 
-        <h3 style="color: #D65A02;" align="left"> </h3>
+
+     </div></div>
+     <div class="column right" style="text-align: center;">
+        <input type="text" id="txtName" />
+        <input type="button" class="btn-login" value="Add Item" id="btnSave" />
+
+        <script type="text/javascript">
+
+            $('#btnSave').on('click',(function() {
+                addCheckbox($('#txtName').val());
+                document.getElementById("txtName").value = "";
+            }));
+
+
+          function addCheckbox(name) {
+             var container = $('#list');
+             var inputs = container.find('input');
+             var id = inputs.length+1;
+             $('#list').append('<input type="checkbox" name="ingredients" value="&nbsp; ' + name +'"/> ' + name + '<br />');
+          }
+        </script></div>
+
+
+
+        <!-- <h3 style="color: #D65A02;" align="left"> </h3>
                     <a class="nav-link dropleft dropdown-toggle" href="#" id="addItemDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Add Item
                         </a>
@@ -99,9 +139,9 @@
                                     <button type="submit" class="btn btn-primary" style="background-color:white;color:black;width:150px;height:40px;" id="addIngredient" onclick="createBox(ingredientAdd)">Add Item</button>
                                 </form>
                             </li>
-                        </ul>
+                        </ul> -->
 
-     </div>
+
      <!-- /.list -->
 
   </div>
