@@ -1,564 +1,3154 @@
-[
+{
+  "hits": [
     {
-        "name": "Crock Pot Roast",
+      "name": "Curried chicken salad",
+      "ingredients": [
+        {
+          "quantity": "3",
+          "name": "skinless, boneless chicken breasts, halved lengthwise",
+          "type": "Meat"
+        },
+        {
+          "quantity": "1/2 cup",
+          "name": "mayonnaise",
+          "type": "Baking"
+        },
+        {
+          "quantity": "1 tbsp",
+          "name": "lemon zest",
+          "type": "Produce"
+        },
+        {
+          "quantity": "1 tbsp ",
+          "name": "lemon juice",
+          "type": "Produce"
+        },
+        {
+          "quantity": "1 1/2 tsp",
+          "name": "curry powder",
+          "type": "Baking"
+        },
+        {
+          "quantity": "1/4 tsp",
+          "name": "salt",
+          "type": "Baking"
+        },
+        {
+          "quantity": "2",
+          "name": "ripe mangoes, diced",
+          "type": "Produce"
+        },
+        {
+          "quantity": "1/4 cup",
+          "name": "dried cranberries",
+          "type": "Produce"
+        },
+        {
+          "quantity": "2",
+          "name": "green onions, thinly sliced",
+          "type": "Produce"
+        },
+        {
+          "quantity": "1",
+          "name": "celery stalk, finely chopped",
+          "type": "Produce"
+        },
+        {
+          "quantity": "6 leaves",
+          "name": "Boston lettuce",
+          "type": "Produce"
+        },
+        {
+          "quantity": "6",
+          "name": "English muffins, toasted",
+          "type": "Misc"
+        }
+      ],
+      "appliances": [
+        "Skillet",
+        "Stove",
+        "Large Bowl",
+        "Fork",
+        "Muffin Tin"
+      ],
+      "steps": [
+        "ARRANGE chicken in a single layer in a large pot.",
+        "Add water to just cover.",
+        "Bring to a boil over medium-high.",
+        "Flip chicken, reduce heat to medium and simmer until cooked, about 6 more min.",
+        "Cool.",
+        "STIR mayo with lemon zest, juice, curry and salt in large bowl.",
+        "Using 2 forks, shred chicken, then stir into mayo mixture with mango, cranberries, green onions and celery.",
+        "Divide among muffins with lettuce leaves",
+        "Sandwich with tops"
+      ],
+      "time": 65,
+      "calories": 455,
+      "servings": 6,
+      "price": 23,
+      "imageURL": "http://www.chatelaine.com/wp-content/uploads/2013/05/Curried-chicken-salad.jpg",
+      "originalURL": "http://www.chatelaine.com/recipe/stovetop-cooking-method/curried-chicken-salad/",
+      "objectID": "982991610",
+      "_snippetResult": {
+        "name": {
+          "value": "Curried chicken salad",
+          "matchLevel": "none"
+        },
         "ingredients": [
-            {
-                "quantity": "1",
-                "name": " beef roast",
-                "type": "Meat"
+          {
+            "quantity": {
+              "value": "3",
+              "matchLevel": "none"
             },
-            {
-                "quantity": "1 package",
-                "name": "brown gravy mix",
-                "type": "Baking"
+            "name": {
+              "value": "skinless, boneless chicken breasts, halved lengthwise",
+              "matchLevel": "none"
             },
-            {
-                "quantity": "1 package",
-                "name": "dried Italian salad dressing mix",
-                "type": "Condiments"
-            },
-            {
-                "quantity": "1 package",
-                "name": "dry ranch dressing mix",
-                "type": "Condiments"
-            },
-            {
-                "quantity": "1/2 cup",
-                "name": "water",
-                "type": "Drinks"
+            "type": {
+              "value": "Meat",
+              "matchLevel": "none"
             }
+          },
+          {
+            "quantity": {
+              "value": "1/2 cup",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "mayonnaise",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Baking",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "1 tbsp",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "lemon zest",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Produce",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "1 tbsp ",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "lemon juice",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Produce",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "1 1/2 tsp",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "curry powder",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Baking",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "1/4 tsp",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "salt",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Baking",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "2",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "ripe mangoes, diced",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Produce",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "1/4 cup",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "dried cranberries",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Produce",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "2",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "green onions, thinly sliced",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Produce",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "1",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "celery stalk, finely chopped",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Produce",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "6 leaves",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "Boston lettuce",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Produce",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "6",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "English muffins, toasted",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Misc",
+              "matchLevel": "none"
+            }
+          }
+        ],
+        "appliances": [
+          {
+            "value": "Skillet",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Stove",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Large Bowl",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Fork",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Muffin Tin",
+            "matchLevel": "none"
+          }
         ],
         "steps": [
-            "Place beef roast in crock pot.",
-            "Mix the dried mixes together in a bowl and sprinkle over the roast.",
-            "Pour the water around the roast.",
-            "Cook on low for 7-9 hours."
+          {
+            "value": "ARRANGE chicken in a single layer in a large pot.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Add water to just cover.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Bring to a boil over medium-high.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Flip chicken, reduce heat to medium and simmer until cooked, about 6 more min.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Cool.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "STIR mayo with lemon zest, juice, curry and salt in large bowl.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Using 2 forks, shred chicken, then stir into mayo mixture with mango, cranberries, green onions and celery.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Divide among muffins with lettuce leaves",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Sandwich with tops",
+            "matchLevel": "none"
+          }
         ],
-        "timers": [
-            0,
-            0,
-            0,
-            420
+        "time": {
+          "value": "65",
+          "matchLevel": "none"
+        },
+        "calories": {
+          "value": "455",
+          "matchLevel": "none"
+        },
+        "servings": {
+          "value": "6",
+          "matchLevel": "none"
+        },
+        "price": {
+          "value": "23",
+          "matchLevel": "none"
+        },
+        "imageURL": {
+          "value": "http://www.chatelaine.com/wp-content/uploads/2013/05/Curried-chicken-salad.jpg",
+          "matchLevel": "none"
+        },
+        "originalURL": {
+          "value": "http://www.chatelaine.com/recipe/stovetop-cooking-method/curried-chicken-salad/",
+          "matchLevel": "none"
+        }
+      },
+      "_highlightResult": {
+        "name": {
+          "value": "Curried chicken salad",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "ingredients": [
+          {
+            "name": {
+              "value": "skinless, boneless chicken breasts, halved lengthwise",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "mayonnaise",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "lemon zest",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "lemon juice",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "curry powder",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "salt",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "ripe mangoes, diced",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "dried cranberries",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "green onions, thinly sliced",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "celery stalk, finely chopped",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "Boston lettuce",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "English muffins, toasted",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          }
         ],
-        "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg",
-        "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208"
+        "appliances": [
+          {
+            "value": "Skillet",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "Stove",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "Large Bowl",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "Fork",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "Muffin Tin",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        ]
+      },
+      "_rankingInfo": {
+        "nbTypos": 0,
+        "firstMatchedWord": 0,
+        "proximityDistance": 0,
+        "userScore": 8,
+        "geoDistance": 0,
+        "geoPrecision": 0,
+        "nbExactWords": 0,
+        "words": 0,
+        "filters": 0
+      }
     },
     {
-        "name": "Roasted Asparagus",
+      "name": "Blueberry Oatmeal Squares",
+      "ingredients": [
+        {
+          "quantity": "2-1/2 cups",
+          "name": "rolled oats, (not instant)",
+          "type": "Baking"
+        },
+        {
+          "quantity": "1-1/4 cups",
+          "name": "all-purpose flour",
+          "type": "Baking"
+        },
+        {
+          "quantity": "1 tbsp",
+          "name": "grated orange rind",
+          "type": "Produce"
+        },
+        {
+          "quantity": "1/4 tsp",
+          "name": "salt",
+          "type": "Baking"
+        },
+        {
+          "quantity": "1 cup",
+          "name": "cold butter, cubed",
+          "type": "Baking"
+        },
+        {
+          "quantity": "3/4 cup",
+          "name": "packed brown sugar",
+          "type": "Baking"
+        },
+        {
+          "quantity": "3 cups",
+          "name": "fresh blueberries",
+          "type": "Produce"
+        },
+        {
+          "quantity": "1/2 cup",
+          "name": "granulated sugar",
+          "type": "Baking"
+        },
+        {
+          "quantity": "1/3 cup",
+          "name": "orange juice",
+          "type": "Produce"
+        },
+        {
+          "quantity": "4 tsp",
+          "name": "cornstarch",
+          "type": "Baking"
+        }
+      ],
+      "appliances": [
+        "Saucepan",
+        "Whisk",
+        "Plastic Wrap",
+        "Large Bowl",
+        "Mixer",
+        "Parchment Paper",
+        "Cake Pan",
+        "Oven",
+        "Foil"
+      ],
+      "steps": [
+        "Filling: In saucepan, bring blueberries, sugar and orange juice to boil; reduce heat and simmer until tender, about 10 minutes.",
+        "Whisk cornstarch with 2 tbsp (25 mL) water; whisk into blueberries and boil, stirring, until thickened, about 1 minute.",
+        "Place plastic wrap directly on surface; refrigerate until cooled, about 1 hour.",
+        "In large bowl, whisk together oats, flour, sugar, orange rind and salt ; with pastry blender, cut in butter until in coarse crumbs.",
+        "Press half into 8-inch (2 L) square parchment paper–lined metal cake pan; spread with blueberry filling.",
+        "Bake in centre of 350°F oven until light golden, about 45 minutes.",
+        "Let cool on rack before cutting into squares.",
+        "(Make-ahead: Cover and refrigerate for up to 2 days or overwrap with heavy-duty foil and freeze for up to 2 weeks.)"
+      ],
+      "time": 116,
+      "calories": 193,
+      "servings": 24,
+      "price": 17,
+      "imageURL": "https://storage-cube.quebecormedia.com/v1/dynamic_resize?quality=75&size=1500x1500&src=http%3A%2F%2Fstorage-cube.quebecormedia.com%2Fv1%2Fcl_prod%2Fcanadian_living%2Fec57f7d6-e56e-4b5e-9a51-fb1300b3e421%2Fblueberry-oatmeal-squares2501359401339.jpg",
+      "originalURL": "http://www.canadianliving.com/food/blueberry_oatmeal_squares.php",
+      "objectID": "982991600",
+      "_snippetResult": {
+        "name": {
+          "value": "Blueberry Oatmeal Squares",
+          "matchLevel": "none"
+        },
         "ingredients": [
-            {
-                "quantity": "1 lb",
-                "name": " asparagus",
-                "type": "Produce"
+          {
+            "quantity": {
+              "value": "2-1/2 cups",
+              "matchLevel": "none"
             },
-            {
-                "quantity": "1 1/2 tbsp",
-                "name": "olive oil",
-                "type": "Condiments"
+            "name": {
+              "value": "rolled oats, (not instant)",
+              "matchLevel": "none"
             },
-            {
-                "quantity": "1/2 tsp",
-                "name": "kosher salt",
-                "type": "Baking"
+            "type": {
+              "value": "Baking",
+              "matchLevel": "none"
             }
+          },
+          {
+            "quantity": {
+              "value": "1-1/4 cups",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "all-purpose flour",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Baking",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "1 tbsp",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "grated orange rind",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Produce",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "1/4 tsp",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "salt",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Baking",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "1 cup",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "cold butter, cubed",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Baking",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "3/4 cup",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "packed brown sugar",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Baking",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "3 cups",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "fresh blueberries",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Produce",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "1/2 cup",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "granulated sugar",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Baking",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "1/3 cup",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "orange juice",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Produce",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "4 tsp",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "cornstarch",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Baking",
+              "matchLevel": "none"
+            }
+          }
+        ],
+        "appliances": [
+          {
+            "value": "Saucepan",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Whisk",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Plastic Wrap",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Large Bowl",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Mixer",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Parchment Paper",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Cake Pan",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Oven",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Foil",
+            "matchLevel": "none"
+          }
         ],
         "steps": [
-            "Preheat oven to 425°F.",
-            "Cut off the woody bottom part of the asparagus spears and discard.",
-            "With a vegetable peeler, peel off the skin on the bottom 2-3 inches of the spears (this keeps the asparagus from being all.\",string.\", and if you eat asparagus you know what I mean by that).",
-            "Place asparagus on foil-lined baking sheet and drizzle with olive oil.",
-            "Sprinkle with salt.",
-            "With your hands, roll the asparagus around until they are evenly coated with oil and salt.",
-            "Roast for 10-15 minutes, depending on the thickness of your stalks and how tender you like them.",
-            "They should be tender when pierced with the tip of a knife.",
-            "The tips of the spears will get very brown but watch them to prevent burning.",
-            "They are great plain, but sometimes I serve them with a light vinaigrette if we need something acidic to balance out our meal."
+          {
+            "value": "Filling: In saucepan, bring blueberries, sugar and orange juice to boil; reduce heat and simmer until tender, about 10 minutes.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Whisk cornstarch with 2 tbsp (25 mL) water; whisk into blueberries and boil, stirring, until thickened, about 1 minute.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Place plastic wrap directly on surface; refrigerate until cooled, about 1 hour.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "In large bowl, whisk together oats, flour, sugar, orange rind and salt ; with pastry blender, cut in butter until in …",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Press half into 8-inch (2 L) square parchment paper–lined metal cake pan; spread with blueberry filling.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Bake in centre of 350°F oven until light golden, about 45 minutes.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Let cool on rack before cutting into squares.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "(Make-ahead: Cover and refrigerate for up to 2 days or overwrap with heavy-duty foil and freeze for …",
+            "matchLevel": "none"
+          }
         ],
-        "timers": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            10,
-            0,
-            0,
-            0
+        "time": {
+          "value": "116",
+          "matchLevel": "none"
+        },
+        "calories": {
+          "value": "193",
+          "matchLevel": "none"
+        },
+        "servings": {
+          "value": "24",
+          "matchLevel": "none"
+        },
+        "price": {
+          "value": "17",
+          "matchLevel": "none"
+        },
+        "imageURL": {
+          "value": "https://storage-cube.quebecormedia.com/v1/dynamic_resize?quality=75&size=1500x1500&src=http%3A%2F%2Fstorage-cube.quebecormedia.com …",
+          "matchLevel": "none"
+        },
+        "originalURL": {
+          "value": "http://www.canadianliving.com/food/blueberry_oatmeal_squares.php",
+          "matchLevel": "none"
+        }
+      },
+      "_highlightResult": {
+        "name": {
+          "value": "Blueberry Oatmeal Squares",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "ingredients": [
+          {
+            "name": {
+              "value": "rolled oats, (not instant)",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "all-purpose flour",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "grated orange rind",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "salt",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "cold butter, cubed",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "packed brown sugar",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "fresh blueberries",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "granulated sugar",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "orange juice",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "cornstarch",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          }
         ],
-        "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/50/84/7/picMcSyVd.jpg",
-        "originalURL": "http://www.food.com/recipe/roasted-asparagus-50847"
+        "appliances": [
+          {
+            "value": "Saucepan",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "Whisk",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "Plastic Wrap",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "Large Bowl",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "Mixer",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "Parchment Paper",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "Cake Pan",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "Oven",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "Foil",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        ]
+      },
+      "_rankingInfo": {
+        "nbTypos": 0,
+        "firstMatchedWord": 0,
+        "proximityDistance": 0,
+        "userScore": 7,
+        "geoDistance": 0,
+        "geoPrecision": 0,
+        "nbExactWords": 0,
+        "words": 0,
+        "filters": 0
+      }
     },
     {
-        "name": "Curried Lentils and Rice",
+      "name": "Old-Fashioned Oatmeal Cookies",
+      "ingredients": [
+        {
+          "quantity": "1 cup",
+          "name": "raisins",
+          "type": "Produce"
+        },
+        {
+          "quantity": "1",
+          "name": "cup water",
+          "type": "Drinks"
+        },
+        {
+          "quantity": "3/4 cup",
+          "name": "shortening",
+          "type": "Baking"
+        },
+        {
+          "quantity": "1 1/2 cups",
+          "name": "sugar",
+          "type": "Baking"
+        },
+        {
+          "quantity": "2 1/2 cups",
+          "name": "flour",
+          "type": "Baking"
+        },
+        {
+          "quantity": "1 tsp.",
+          "name": "soda",
+          "type": "Baking"
+        },
+        {
+          "quantity": "1 tsp.",
+          "name": "salt",
+          "type": "Baking"
+        },
+        {
+          "quantity": "1 tsp.",
+          "name": "cinnamon",
+          "type": "Baking"
+        },
+        {
+          "quantity": "1/2 tsp.",
+          "name": "baking powder",
+          "type": "Baking"
+        },
+        {
+          "quantity": "1/2 tsp.",
+          "name": "cloves",
+          "type": "Baking"
+        },
+        {
+          "quantity": "2 cups",
+          "name": "oats",
+          "type": "Baking"
+        },
+        {
+          "quantity": "1/2 cup",
+          "name": "chopped nuts",
+          "type": "Baking"
+        }
+      ],
+      "appliances": [
+        "Stove",
+        "Skillet",
+        "Strainer",
+        "Oven",
+        "Baking Sheet"
+      ],
+      "steps": [
+        "Simmer raisins and water over medium heat until raisins are plump, about 15 minutes.",
+        "Drain raisins, reserving the liquid.",
+        "Add enough water to reserved liquid to measure 1/2 cup.",
+        "Heat oven to 400°.",
+        "Mix thoroughly shortening, sugar, eggs and vanilla.",
+        "Stir in reserved liquid.",
+        "Blend in remaining ingredients.",
+        "Drop dough by rounded teaspoonfuls about 2 inches apart onto ungreased baking sheet.",
+        "Bake 8 to 10 minutes or until light brown.",
+        "About 6 1/2 dozen cookies."
+      ],
+      "time": 23,
+      "calories": 150,
+      "servings": 12,
+      "price": 13,
+      "imageURL": "http://s3.amazonaws.com/gmi-digital-library/65caecf7-a8f7-4a09-8513-2659cf92871e.jpg",
+      "originalURL": "#",
+      "objectID": "982991590",
+      "_snippetResult": {
+        "name": {
+          "value": "Old-Fashioned Oatmeal Cookies",
+          "matchLevel": "none"
+        },
         "ingredients": [
-            {
-                "quantity": "1 quart",
-                "name": "beef broth",
-                "type": "Misc"
+          {
+            "quantity": {
+              "value": "1 cup",
+              "matchLevel": "none"
             },
-            {
-                "quantity": "1 cup",
-                "name": "dried green lentils",
-                "type": "Misc"
+            "name": {
+              "value": "raisins",
+              "matchLevel": "none"
             },
-            {
-                "quantity": "1/2 cup",
-                "name": "basmati rice",
-                "type": "Misc"
-            },
-            {
-                "quantity": "1 tsp",
-                "name": "curry powder",
-                "type": "Condiments"
-            },
-            {
-                "quantity": "1 tsp",
-                "name": "salt",
-                "type": "Condiments"
+            "type": {
+              "value": "Produce",
+              "matchLevel": "none"
             }
+          },
+          {
+            "quantity": {
+              "value": "1",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "cup water",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Drinks",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "3/4 cup",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "shortening",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Baking",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "1 1/2 cups",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "sugar",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Baking",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "2 1/2 cups",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "flour",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Baking",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "1 tsp.",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "soda",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Baking",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "1 tsp.",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "salt",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Baking",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "1 tsp.",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "cinnamon",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Baking",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "1/2 tsp.",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "baking powder",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Baking",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "1/2 tsp.",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "cloves",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Baking",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "2 cups",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "oats",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Baking",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "1/2 cup",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "chopped nuts",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Baking",
+              "matchLevel": "none"
+            }
+          }
+        ],
+        "appliances": [
+          {
+            "value": "Stove",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Skillet",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Strainer",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Oven",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Baking Sheet",
+            "matchLevel": "none"
+          }
         ],
         "steps": [
-            "Bring broth to a low boil.",
-            "Add curry powder and salt.",
-            "Cook lentils for 20 minutes.",
-            "Add rice and simmer for 20 minutes.",
-            "Enjoy!"
+          {
+            "value": "Simmer raisins and water over medium heat until raisins are plump, about 15 minutes.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Drain raisins, reserving the liquid.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Add enough water to reserved liquid to measure 1/2 cup.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Heat oven to 400°.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Mix thoroughly shortening, sugar, eggs and vanilla.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Stir in reserved liquid.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Blend in remaining ingredients.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Drop dough by rounded teaspoonfuls about 2 inches apart onto ungreased baking sheet.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Bake 8 to 10 minutes or until light brown.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "About 6 1/2 dozen cookies.",
+            "matchLevel": "none"
+          }
         ],
-        "timers": [
-            0,
-            0,
-            20,
-            20,
-            0
+        "time": {
+          "value": "23",
+          "matchLevel": "none"
+        },
+        "calories": {
+          "value": "150",
+          "matchLevel": "none"
+        },
+        "servings": {
+          "value": "12",
+          "matchLevel": "none"
+        },
+        "price": {
+          "value": "13",
+          "matchLevel": "none"
+        },
+        "imageURL": {
+          "value": "http://s3.amazonaws.com/gmi-digital-library/65caecf7-a8f7-4a09-8513-2659cf92871e.jpg",
+          "matchLevel": "none"
+        },
+        "originalURL": {
+          "value": "#",
+          "matchLevel": "none"
+        }
+      },
+      "_highlightResult": {
+        "name": {
+          "value": "Old-Fashioned Oatmeal Cookies",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "ingredients": [
+          {
+            "name": {
+              "value": "raisins",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "cup water",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "shortening",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "sugar",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "flour",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "soda",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "salt",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "cinnamon",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "baking powder",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "cloves",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "oats",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "chopped nuts",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          }
         ],
-        "imageURL": "http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg"
+        "appliances": [
+          {
+            "value": "Stove",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "Skillet",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "Strainer",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "Oven",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "Baking Sheet",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        ]
+      },
+      "_rankingInfo": {
+        "nbTypos": 0,
+        "firstMatchedWord": 0,
+        "proximityDistance": 0,
+        "userScore": 6,
+        "geoDistance": 0,
+        "geoPrecision": 0,
+        "nbExactWords": 0,
+        "words": 0,
+        "filters": 0
+      }
     },
     {
-        "name": "Big Night Pizza",
+      "name": "Mic's Yorkshire Puds",
+      "ingredients": [
+        {
+          "quantity": "200g",
+          "name": "plain flour",
+          "type": "Baking"
+        },
+        {
+          "quantity": "3",
+          "name": "eggs",
+          "type": "Dairy"
+        },
+        {
+          "quantity": "300ml",
+          "name": "milk",
+          "type": "Dairy"
+        },
+        {
+          "quantity": "3 tbsp",
+          "name": "vegetable oil",
+          "type": "Condiments"
+        }
+      ],
+      "appliances": [
+        "Large Bowl",
+        "Whisk",
+        "Oven",
+        "Muffin Tin",
+        "Ladle"
+      ],
+      "steps": [
+        "Put the flour and some seasoning into a large bowl.",
+        "Stir in eggs, one at a time.",
+        "Whisk in milk until you have a smooth batter.",
+        "Chill in the fridge for at least 30 minutes.",
+        "Heat oven to 220C/gas mark 7.",
+        "Pour the oil into the holes of a 8-hole muffin tin.",
+        "Heat tin in the oven for 5 minutes.",
+        "Ladle the batter mix into the tin.",
+        "Bake for 30 minutes until well browned and risen."
+      ],
+      "time": 65,
+      "calories": 200,
+      "servings": 8,
+      "price": 9,
+      "imageURL": "http://upload.wikimedia.org/wikipedia/commons/f/f9/Yorkshire_Pudding.jpg",
+      "originalURL": "http://upload.wikimedia.org/wikipedia/commons/f/f9/Yorkshire_Pudding.jpg",
+      "objectID": "982991580",
+      "_snippetResult": {
+        "name": {
+          "value": "Mic's Yorkshire Puds",
+          "matchLevel": "none"
+        },
         "ingredients": [
-            {
-                "quantity": "5 teaspoons",
-                "name": "yeast",
-                "type": "Baking"
+          {
+            "quantity": {
+              "value": "200g",
+              "matchLevel": "none"
             },
-            {
-                "quantity": "5 cups",
-                "name": "flour",
-                "type": "Baking"
+            "name": {
+              "value": "plain flour",
+              "matchLevel": "none"
             },
-            {
-                "quantity": "4 tablespoons",
-                "name": "vegetable oil",
-                "type": "Baking"
-            },
-            {
-                "quantity": "2 tablespoons",
-                "name": "sugar",
-                "type": "Baking"
-            },
-            {
-                "quantity": "2 teaspoons",
-                "name": "salt",
-                "type": "Baking"
-            },
-            {
-                "quantity": "2 cups",
-                "name": "hot water",
-                "type": "Misc"
-            },
-            {
-                "quantity": "1/4 cup",
-                "name": "pizza sauce",
-                "type": "Misc"
-            },
-            {
-                "quantity": "3/4 cup",
-                "name": "mozzarella cheese",
-                "type": "Dairy"
+            "type": {
+              "value": "Baking",
+              "matchLevel": "none"
             }
+          },
+          {
+            "quantity": {
+              "value": "3",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "eggs",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Dairy",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "300ml",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "milk",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Dairy",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "3 tbsp",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "vegetable oil",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Condiments",
+              "matchLevel": "none"
+            }
+          }
+        ],
+        "appliances": [
+          {
+            "value": "Large Bowl",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Whisk",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Oven",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Muffin Tin",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Ladle",
+            "matchLevel": "none"
+          }
         ],
         "steps": [
-            "Add hot water to yeast in a large bowl and let sit for 15 minutes.",
-            "Mix in oil, sugar, salt, and flour and let sit for 1 hour.",
-            "Knead the dough and spread onto a pan.",
-            "Spread pizza sauce and sprinkle cheese.",
-            "Add any optional toppings as you wish.",
-            "Bake at 400 deg Fahrenheit for 15 minutes.",
-            "Enjoy!"
+          {
+            "value": "Put the flour and some seasoning into a large bowl.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Stir in eggs, one at a time.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Whisk in milk until you have a smooth batter.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Chill in the fridge for at least 30 minutes.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Heat oven to 220C/gas mark 7.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Pour the oil into the holes of a 8-hole muffin tin.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Heat tin in the oven for 5 minutes.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Ladle the batter mix into the tin.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Bake for 30 minutes until well browned and risen.",
+            "matchLevel": "none"
+          }
         ],
-        "timers": [
-            15,
-            60,
-            0,
-            0,
-            0,
-            15,
-            0
+        "time": {
+          "value": "65",
+          "matchLevel": "none"
+        },
+        "calories": {
+          "value": "200",
+          "matchLevel": "none"
+        },
+        "servings": {
+          "value": "8",
+          "matchLevel": "none"
+        },
+        "price": {
+          "value": "9",
+          "matchLevel": "none"
+        },
+        "imageURL": {
+          "value": "http://upload.wikimedia.org/wikipedia/commons/f/f9/Yorkshire_Pudding.jpg",
+          "matchLevel": "none"
+        },
+        "originalURL": {
+          "value": "http://upload.wikimedia.org/wikipedia/commons/f/f9/Yorkshire_Pudding.jpg",
+          "matchLevel": "none"
+        }
+      },
+      "_highlightResult": {
+        "name": {
+          "value": "Mic's Yorkshire Puds",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "ingredients": [
+          {
+            "name": {
+              "value": "plain flour",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "eggs",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "milk",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "vegetable oil",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          }
         ],
-        "imageURL": "http://upload.wikimedia.org/wikipedia/commons/c/c7/Spinach_pizza.jpg"
+        "appliances": [
+          {
+            "value": "Large Bowl",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "Whisk",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "Oven",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "Muffin Tin",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "Ladle",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        ]
+      },
+      "_rankingInfo": {
+        "nbTypos": 0,
+        "firstMatchedWord": 0,
+        "proximityDistance": 0,
+        "userScore": 5,
+        "geoDistance": 0,
+        "geoPrecision": 0,
+        "nbExactWords": 0,
+        "words": 0,
+        "filters": 0
+      }
     },
     {
-        "name": "Cranberry and Apple Stuffed Acorn Squash Recipe",
+      "name": "Cranberry and Apple Stuffed Acorn Squash Recipe",
+      "ingredients": [
+        {
+          "quantity": "2",
+          "name": "acorn squash",
+          "type": "Produce"
+        },
+        {
+          "quantity": "1",
+          "name": "boiling water",
+          "type": "Drinks"
+        },
+        {
+          "quantity": "2",
+          "name": "apples chopped into 1.4 inch pieces",
+          "type": "Produce"
+        },
+        {
+          "quantity": "1/2 cup",
+          "name": "dried cranberries",
+          "type": "Produce"
+        },
+        {
+          "quantity": "1 teaspoon",
+          "name": "cinnamon",
+          "type": "Baking"
+        },
+        {
+          "quantity": "2 tablespoons",
+          "name": "melted butter",
+          "type": "Dairy"
+        }
+      ],
+      "appliances": [
+        "Baking Dish",
+        "Oven",
+        "Large Bowl"
+      ],
+      "steps": [
+        "Cut squash in half, remove seeds.",
+        "Place squash in baking dish, cut-side down.",
+        "Pour 1/4-inch water into dish.",
+        "Bake for 30 minutes at 350 degrees F.",
+        "In large bowl, combine remaining ingredients.",
+        "Remove squash from oven, fill with mix.",
+        "Bake for 30-40 more minutes, until squash tender.",
+        "Enjoy!"
+      ],
+      "time": 60,
+      "calories": 300,
+      "servings": 4,
+      "price": 18,
+      "imageURL": "http://elanaspantry.com/wp-content/uploads/2008/10/acorn_squash_with_cranberry.jpg",
+      "originalURL": "",
+      "objectID": "982991570",
+      "_snippetResult": {
+        "name": {
+          "value": "Cranberry and Apple Stuffed Acorn Squash Recipe",
+          "matchLevel": "none"
+        },
         "ingredients": [
-            {
-                "quantity": "2",
-                "name": "acorn squash",
-                "type": "Produce"
+          {
+            "quantity": {
+              "value": "2",
+              "matchLevel": "none"
             },
-            {
-                "quantity": "1",
-                "name": "boiling water",
-                "type": "Drinks"
+            "name": {
+              "value": "acorn squash",
+              "matchLevel": "none"
             },
-            {
-                "quantity": "2",
-                "name": "apples chopped into 1.4 inch pieces",
-                "type": "Produce"
-            },
-            {
-                "quantity": "1/2 cup",
-                "name": "dried cranberries",
-                "type": "Produce"
-            },
-            {
-                "quantity": "1 teaspoon",
-                "name": "cinnamon",
-                "type": "Baking"
-            },
-            {
-                "quantity": "2 tablespoons",
-                "name": "melted butter",
-                "type": "Dairy"
+            "type": {
+              "value": "Produce",
+              "matchLevel": "none"
             }
+          },
+          {
+            "quantity": {
+              "value": "1",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "boiling water",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Drinks",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "2",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "apples chopped into 1.4 inch pieces",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Produce",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "1/2 cup",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "dried cranberries",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Produce",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "1 teaspoon",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "cinnamon",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Baking",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "2 tablespoons",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "melted butter",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Dairy",
+              "matchLevel": "none"
+            }
+          }
+        ],
+        "appliances": [
+          {
+            "value": "Baking Dish",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Oven",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Large Bowl",
+            "matchLevel": "none"
+          }
         ],
         "steps": [
-            "Cut squash in half, remove seeds.",
-            "Place squash in baking dish, cut-side down.",
-            "Pour 1/4-inch water into dish.",
-            "Bake for 30 minutes at 350 degrees F.",
-            "In large bowl, combine remaining ingredients.",
-            "Remove squash from oven, fill with mix.",
-            "Bake for 30-40 more minutes, until squash tender.",
-            "Enjoy!"
+          {
+            "value": "Cut squash in half, remove seeds.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Place squash in baking dish, cut-side down.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Pour 1/4-inch water into dish.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Bake for 30 minutes at 350 degrees F.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "In large bowl, combine remaining ingredients.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Remove squash from oven, fill with mix.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Bake for 30-40 more minutes, until squash tender.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Enjoy!",
+            "matchLevel": "none"
+          }
         ],
-        "timers": [
-            0,
-            0,
-            0,
-            30,
-            0,
-            0,
-            30,
-            0
+        "time": {
+          "value": "60",
+          "matchLevel": "none"
+        },
+        "calories": {
+          "value": "300",
+          "matchLevel": "none"
+        },
+        "servings": {
+          "value": "4",
+          "matchLevel": "none"
+        },
+        "price": {
+          "value": "18",
+          "matchLevel": "none"
+        },
+        "imageURL": {
+          "value": "http://elanaspantry.com/wp-content/uploads/2008/10/acorn_squash_with_cranberry.jpg",
+          "matchLevel": "none"
+        },
+        "originalURL": {
+          "value": "",
+          "matchLevel": "none"
+        }
+      },
+      "_highlightResult": {
+        "name": {
+          "value": "Cranberry and Apple Stuffed Acorn Squash Recipe",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "ingredients": [
+          {
+            "name": {
+              "value": "acorn squash",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "boiling water",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "apples chopped into 1.4 inch pieces",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "dried cranberries",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "cinnamon",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "melted butter",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          }
         ],
-        "imageURL": "http://elanaspantry.com/wp-content/uploads/2008/10/acorn_squash_with_cranberry.jpg",
-        "originalURL": ""
+        "appliances": [
+          {
+            "value": "Baking Dish",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "Oven",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "Large Bowl",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        ]
+      },
+      "_rankingInfo": {
+        "nbTypos": 0,
+        "firstMatchedWord": 0,
+        "proximityDistance": 0,
+        "userScore": 4,
+        "geoDistance": 0,
+        "geoPrecision": 0,
+        "nbExactWords": 0,
+        "words": 0,
+        "filters": 0
+      }
     },
     {
-        "name": "Mic's Yorkshire Puds",
+      "name": "Big Night Pizza",
+      "ingredients": [
+        {
+          "quantity": "5 teaspoons",
+          "name": "yeast",
+          "type": "Baking"
+        },
+        {
+          "quantity": "5 cups",
+          "name": "flour",
+          "type": "Baking"
+        },
+        {
+          "quantity": "4 tablespoons",
+          "name": "vegetable oil",
+          "type": "Baking"
+        },
+        {
+          "quantity": "2 tablespoons",
+          "name": "sugar",
+          "type": "Baking"
+        },
+        {
+          "quantity": "2 teaspoons",
+          "name": "salt",
+          "type": "Baking"
+        },
+        {
+          "quantity": "2 cups",
+          "name": "hot water",
+          "type": "Misc"
+        },
+        {
+          "quantity": "1/4 cup",
+          "name": "pizza sauce",
+          "type": "Misc"
+        },
+        {
+          "quantity": "3/4 cup",
+          "name": "mozzarella cheese",
+          "type": "Dairy"
+        }
+      ],
+      "appliances": [
+        "Large Bowl",
+        "Baking Sheet",
+        "Oven"
+      ],
+      "steps": [
+        "Add hot water to yeast in a large bowl and let sit for 15 minutes.",
+        "Mix in oil, sugar, salt, and flour and let sit for 1 hour.",
+        "Knead the dough and spread onto a pan.",
+        "Spread pizza sauce and sprinkle cheese.",
+        "Add any optional toppings as you wish.",
+        "Bake at 400 deg Fahrenheit for 15 minutes.",
+        "Enjoy!"
+      ],
+      "time": 90,
+      "calories": 400,
+      "servings": 3,
+      "price": 15,
+      "imageURL": "http://upload.wikimedia.org/wikipedia/commons/c/c7/Spinach_pizza.jpg",
+      "objectID": "982991560",
+      "_snippetResult": {
+        "name": {
+          "value": "Big Night Pizza",
+          "matchLevel": "none"
+        },
         "ingredients": [
-            {
-                "quantity": "200g",
-                "name": "plain flour",
-                "type": "Baking"
+          {
+            "quantity": {
+              "value": "5 teaspoons",
+              "matchLevel": "none"
             },
-            {
-                "quantity": "3",
-                "name": "eggs",
-                "type": "Dairy"
+            "name": {
+              "value": "yeast",
+              "matchLevel": "none"
             },
-            {
-                "quantity": "300ml",
-                "name": "milk",
-                "type": "Dairy"
-            },
-            {
-                "quantity": "3 tbsp",
-                "name": "vegetable oil",
-                "type": "Condiments"
+            "type": {
+              "value": "Baking",
+              "matchLevel": "none"
             }
+          },
+          {
+            "quantity": {
+              "value": "5 cups",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "flour",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Baking",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "4 tablespoons",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "vegetable oil",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Baking",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "2 tablespoons",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "sugar",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Baking",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "2 teaspoons",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "salt",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Baking",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "2 cups",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "hot water",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Misc",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "1/4 cup",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "pizza sauce",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Misc",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "3/4 cup",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "mozzarella cheese",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Dairy",
+              "matchLevel": "none"
+            }
+          }
+        ],
+        "appliances": [
+          {
+            "value": "Large Bowl",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Baking Sheet",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Oven",
+            "matchLevel": "none"
+          }
         ],
         "steps": [
-            "Put the flour and some seasoning into a large bowl.",
-            "Stir in eggs, one at a time.",
-            "Whisk in milk until you have a smooth batter.",
-            "Chill in the fridge for at least 30 minutes.",
-            "Heat oven to 220C/gas mark 7.",
-            "Pour the oil into the holes of a 8-hole muffin tin.",
-            "Heat tin in the oven for 5 minutes.",
-            "Ladle the batter mix into the tin.",
-            "Bake for 30 minutes until well browned and risen."
+          {
+            "value": "Add hot water to yeast in a large bowl and let sit for 15 minutes.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Mix in oil, sugar, salt, and flour and let sit for 1 hour.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Knead the dough and spread onto a pan.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Spread pizza sauce and sprinkle cheese.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Add any optional toppings as you wish.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Bake at 400 deg Fahrenheit for 15 minutes.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Enjoy!",
+            "matchLevel": "none"
+          }
         ],
-        "timers": [
-            0,
-            0,
-            0,
-            30,
-            0,
-            0,
-            5,
-            0,
-            30
+        "time": {
+          "value": "90",
+          "matchLevel": "none"
+        },
+        "calories": {
+          "value": "400",
+          "matchLevel": "none"
+        },
+        "servings": {
+          "value": "3",
+          "matchLevel": "none"
+        },
+        "price": {
+          "value": "15",
+          "matchLevel": "none"
+        },
+        "imageURL": {
+          "value": "http://upload.wikimedia.org/wikipedia/commons/c/c7/Spinach_pizza.jpg",
+          "matchLevel": "none"
+        }
+      },
+      "_highlightResult": {
+        "name": {
+          "value": "Big Night Pizza",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "ingredients": [
+          {
+            "name": {
+              "value": "yeast",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "flour",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "vegetable oil",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "sugar",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "salt",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "hot water",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "pizza sauce",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "mozzarella cheese",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          }
         ],
-        "imageURL": "http://upload.wikimedia.org/wikipedia/commons/f/f9/Yorkshire_Pudding.jpg",
-        "originalURL": "http://upload.wikimedia.org/wikipedia/commons/f/f9/Yorkshire_Pudding.jpg"
+        "appliances": [
+          {
+            "value": "Large Bowl",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "Baking Sheet",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "Oven",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        ]
+      },
+      "_rankingInfo": {
+        "nbTypos": 0,
+        "firstMatchedWord": 0,
+        "proximityDistance": 0,
+        "userScore": 3,
+        "geoDistance": 0,
+        "geoPrecision": 0,
+        "nbExactWords": 0,
+        "words": 0,
+        "filters": 0
+      }
     },
     {
-        "name": "Old-Fashioned Oatmeal Cookies",
+      "name": "Curried Lentils and Rice",
+      "ingredients": [
+        {
+          "quantity": "1 quart",
+          "name": "beef broth",
+          "type": "Misc"
+        },
+        {
+          "quantity": "1 cup",
+          "name": "dried green lentils",
+          "type": "Misc"
+        },
+        {
+          "quantity": "1/2 cup",
+          "name": "basmati rice",
+          "type": "Misc"
+        },
+        {
+          "quantity": "1 tsp",
+          "name": "curry powder",
+          "type": "Condiments"
+        },
+        {
+          "quantity": "1 tsp",
+          "name": "salt",
+          "type": "Condiments"
+        }
+      ],
+      "appliances": [
+        "Saucepan",
+        "Stove"
+      ],
+      "steps": [
+        "Bring broth to a low boil.",
+        "Add curry powder and salt.",
+        "Cook lentils for 20 minutes.",
+        "Add rice and simmer for 20 minutes.",
+        "Enjoy!"
+      ],
+      "time": 40,
+      "calories": 250,
+      "servings": 2,
+      "price": 10,
+      "imageURL": "http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg",
+      "objectID": "982991550",
+      "_snippetResult": {
+        "name": {
+          "value": "Curried Lentils and Rice",
+          "matchLevel": "none"
+        },
         "ingredients": [
-            {
-                "quantity": "1 cup",
-                "name": "raisins",
-                "type": "Produce"
+          {
+            "quantity": {
+              "value": "1 quart",
+              "matchLevel": "none"
             },
-            {
-                "quantity": "1",
-                "name": "cup water",
-                "type": "Drinks"
+            "name": {
+              "value": "beef broth",
+              "matchLevel": "none"
             },
-            {
-                "quantity": "3/4 cup",
-                "name": "shortening",
-                "type": "Baking"
-            },
-            {
-                "quantity": "1 1/2 cups",
-                "name": "sugar",
-                "type": "Baking"
-            },
-            {
-                "quantity": "2 1/2 cups",
-                "name": "flour",
-                "type": "Baking"
-            },
-            {
-                "quantity": "1 tsp.",
-                "name": "soda",
-                "type": "Baking"
-            },
-            {
-                "quantity": "1 tsp.",
-                "name": "salt",
-                "type": "Baking"
-            },
-            {
-                "quantity": "1 tsp.",
-                "name": "cinnamon",
-                "type": "Baking"
-            },
-            {
-                "quantity": "1/2 tsp.",
-                "name": "baking powder",
-                "type": "Baking"
-            },
-            {
-                "quantity": "1/2 tsp.",
-                "name": "cloves",
-                "type": "Baking"
-            },
-            {
-                "quantity": "2 cups",
-                "name": "oats",
-                "type": "Baking"
-            },
-            {
-                "quantity": "1/2 cup",
-                "name": "chopped nuts",
-                "type": "Baking"
+            "type": {
+              "value": "Misc",
+              "matchLevel": "none"
             }
+          },
+          {
+            "quantity": {
+              "value": "1 cup",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "dried green lentils",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Misc",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "1/2 cup",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "basmati rice",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Misc",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "1 tsp",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "curry powder",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Condiments",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "1 tsp",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "salt",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Condiments",
+              "matchLevel": "none"
+            }
+          }
+        ],
+        "appliances": [
+          {
+            "value": "Saucepan",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Stove",
+            "matchLevel": "none"
+          }
         ],
         "steps": [
-            "Simmer raisins and water over medium heat until raisins are plump, about 15 minutes.",
-            "Drain raisins, reserving the liquid.",
-            "Add enough water to reserved liquid to measure 1/2 cup.",
-            "Heat oven to 400°.",
-            "Mix thoroughly shortening, sugar, eggs and vanilla.",
-            "Stir in reserved liquid.",
-            "Blend in remaining ingredients.",
-            "Drop dough by rounded teaspoonfuls about 2 inches apart onto ungreased baking sheet.",
-            "Bake 8 to 10 minutes or until light brown.",
-            "About 6 1/2 dozen cookies."
+          {
+            "value": "Bring broth to a low boil.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Add curry powder and salt.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Cook lentils for 20 minutes.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Add rice and simmer for 20 minutes.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Enjoy!",
+            "matchLevel": "none"
+          }
         ],
-        "timers": [
-            15,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            8,
-            0
+        "time": {
+          "value": "40",
+          "matchLevel": "none"
+        },
+        "calories": {
+          "value": "250",
+          "matchLevel": "none"
+        },
+        "servings": {
+          "value": "2",
+          "matchLevel": "none"
+        },
+        "price": {
+          "value": "10",
+          "matchLevel": "none"
+        },
+        "imageURL": {
+          "value": "http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg",
+          "matchLevel": "none"
+        }
+      },
+      "_highlightResult": {
+        "name": {
+          "value": "Curried Lentils and Rice",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "ingredients": [
+          {
+            "name": {
+              "value": "beef broth",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "dried green lentils",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "basmati rice",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "curry powder",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "salt",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          }
         ],
-        "imageURL": "http://s3.amazonaws.com/gmi-digital-library/65caecf7-a8f7-4a09-8513-2659cf92871e.jpg",
-        "originalURL": "#"
+        "appliances": [
+          {
+            "value": "Saucepan",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "Stove",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        ]
+      },
+      "_rankingInfo": {
+        "nbTypos": 0,
+        "firstMatchedWord": 0,
+        "proximityDistance": 0,
+        "userScore": 2,
+        "geoDistance": 0,
+        "geoPrecision": 0,
+        "nbExactWords": 0,
+        "words": 0,
+        "filters": 0
+      }
     },
     {
-        "name": "Blueberry Oatmeal Squares",
+      "name": "Roasted Asparagus",
+      "ingredients": [
+        {
+          "quantity": "1 lb",
+          "name": " asparagus",
+          "type": "Produce"
+        },
+        {
+          "quantity": "1 1/2 tbsp",
+          "name": "olive oil",
+          "type": "Condiments"
+        },
+        {
+          "quantity": "1/2 tsp",
+          "name": "kosher salt",
+          "type": "Baking"
+        }
+      ],
+      "appliances": [
+        "Oven",
+        "Peeler",
+        "Baking Sheet"
+      ],
+      "steps": [
+        "Preheat oven to 425°F.",
+        "Cut off the woody bottom part of the asparagus spears and discard.",
+        "With a vegetable peeler, peel off the skin on the bottom 2-3 inches of the spears (this keeps the asparagus from being all.\",string.\", and if you eat asparagus you know what I mean by that).",
+        "Place asparagus on foil-lined baking sheet and drizzle with olive oil.",
+        "Sprinkle with salt.",
+        "With your hands, roll the asparagus around until they are evenly coated with oil and salt.",
+        "Roast for 10-15 minutes, depending on the thickness of your stalks and how tender you like them.",
+        "They should be tender when pierced with the tip of a knife.",
+        "The tips of the spears will get very brown but watch them to prevent burning.",
+        "They are great plain, but sometimes I serve them with a light vinaigrette if we need something acidic to balance out our meal."
+      ],
+      "time": 25,
+      "calories": 100,
+      "servings": 4,
+      "price": 4,
+      "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/50/84/7/picMcSyVd.jpg",
+      "originalURL": "http://www.food.com/recipe/roasted-asparagus-50847",
+      "objectID": "982991540",
+      "_snippetResult": {
+        "name": {
+          "value": "Roasted Asparagus",
+          "matchLevel": "none"
+        },
         "ingredients": [
-            {
-                "quantity": "2-1/2 cups",
-                "name": "rolled oats, (not instant)",
-                "type": "Baking"
+          {
+            "quantity": {
+              "value": "1 lb",
+              "matchLevel": "none"
             },
-            {
-                "quantity": "1-1/4 cups",
-                "name": "all-purpose flour",
-                "type": "Baking"
+            "name": {
+              "value": " asparagus",
+              "matchLevel": "none"
             },
-            {
-                "quantity": "1 tbsp",
-                "name": "grated orange rind",
-                "type": "Produce"
-            },
-            {
-                "quantity": "1/4 tsp",
-                "name": "salt",
-                "type": "Baking"
-            },
-            {
-                "quantity": "1 cup",
-                "name": "cold butter, cubed",
-                "type": "Baking"
-            },
-            {
-                "quantity": "3/4 cup",
-                "name": "packed brown sugar",
-                "type": "Baking"
-            },
-            {
-                "quantity": "3 cups",
-                "name": "fresh blueberries",
-                "type": "Produce"
-            },
-            {
-                "quantity": "1/2 cup",
-                "name": "granulated sugar",
-                "type": "Baking"
-            },
-            {
-                "quantity": "1/3 cup",
-                "name": "orange juice",
-                "type": "Produce"
-            },
-            {
-                "quantity": "4 tsp",
-                "name": "cornstarch",
-                "type": "Baking"
+            "type": {
+              "value": "Produce",
+              "matchLevel": "none"
             }
+          },
+          {
+            "quantity": {
+              "value": "1 1/2 tbsp",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "olive oil",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Condiments",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "1/2 tsp",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "kosher salt",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Baking",
+              "matchLevel": "none"
+            }
+          }
+        ],
+        "appliances": [
+          {
+            "value": "Oven",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Peeler",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Baking Sheet",
+            "matchLevel": "none"
+          }
         ],
         "steps": [
-            "Filling: In saucepan, bring blueberries, sugar and orange juice to boil; reduce heat and simmer until tender, about 10 minutes.",
-            "Whisk cornstarch with 2 tbsp (25 mL) water; whisk into blueberries and boil, stirring, until thickened, about 1 minute.",
-            "Place plastic wrap directly on surface; refrigerate until cooled, about 1 hour.",
-            "In large bowl, whisk together oats, flour, sugar, orange rind and salt ; with pastry blender, cut in butter until in coarse crumbs.",
-            "Press half into 8-inch (2 L) square parchment paper–lined metal cake pan; spread with blueberry filling.",
-            "Bake in centre of 350°F oven until light golden, about 45 minutes.",
-            "Let cool on rack before cutting into squares.",
-            "(Make-ahead: Cover and refrigerate for up to 2 days or overwrap with heavy-duty foil and freeze for up to 2 weeks.)"
+          {
+            "value": "Preheat oven to 425°F.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Cut off the woody bottom part of the asparagus spears and discard.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "With a vegetable peeler, peel off the skin on the bottom 2-3 inches of the spears (this keeps the …",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Place asparagus on foil-lined baking sheet and drizzle with olive oil.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Sprinkle with salt.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "With your hands, roll the asparagus around until they are evenly coated with oil and salt.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Roast for 10-15 minutes, depending on the thickness of your stalks and how tender you like them.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "They should be tender when pierced with the tip of a knife.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "The tips of the spears will get very brown but watch them to prevent burning.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "They are great plain, but sometimes I serve them with a light vinaigrette if we need something acidic to balance …",
+            "matchLevel": "none"
+          }
         ],
-        "timers": [
-            10,
-            1,
-            60,
-            0,
-            0,
-            45,
-            0,
-            0
+        "time": {
+          "value": "25",
+          "matchLevel": "none"
+        },
+        "calories": {
+          "value": "100",
+          "matchLevel": "none"
+        },
+        "servings": {
+          "value": "4",
+          "matchLevel": "none"
+        },
+        "price": {
+          "value": "4",
+          "matchLevel": "none"
+        },
+        "imageURL": {
+          "value": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/50/84/7/picMcSyVd.jpg",
+          "matchLevel": "none"
+        },
+        "originalURL": {
+          "value": "http://www.food.com/recipe/roasted-asparagus-50847",
+          "matchLevel": "none"
+        }
+      },
+      "_highlightResult": {
+        "name": {
+          "value": "Roasted Asparagus",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "ingredients": [
+          {
+            "name": {
+              "value": " asparagus",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "olive oil",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "kosher salt",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          }
         ],
-        "imageURL": "http://www.canadianliving.com/img/photos/biz/blueberry-oatmeal-squares5801359401371.jpg",
-        "originalURL": "http://www.canadianliving.com/food/blueberry_oatmeal_squares.php"
+        "appliances": [
+          {
+            "value": "Oven",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "Peeler",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "Baking Sheet",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        ]
+      },
+      "_rankingInfo": {
+        "nbTypos": 0,
+        "firstMatchedWord": 0,
+        "proximityDistance": 0,
+        "userScore": 1,
+        "geoDistance": 0,
+        "geoPrecision": 0,
+        "nbExactWords": 0,
+        "words": 0,
+        "filters": 0
+      }
     },
     {
-        "name": "Curried chicken salad",
+      "name": "Crock Pot Roast",
+      "ingredients": [
+        {
+          "quantity": "1",
+          "name": " beef roast",
+          "type": "Meat"
+        },
+        {
+          "quantity": "1 package",
+          "name": "brown gravy mix",
+          "type": "Baking"
+        },
+        {
+          "quantity": "1 package",
+          "name": "dried Italian salad dressing mix",
+          "type": "Condiments"
+        },
+        {
+          "quantity": "1 package",
+          "name": "dry ranch dressing mix",
+          "type": "Condiments"
+        },
+        {
+          "quantity": "1/2 cup",
+          "name": "water",
+          "type": "Drinks"
+        }
+      ],
+      "appliances": [
+        "Crock Pot",
+        "Large Bowl"
+      ],
+      "steps": [
+        "Place beef roast in crock pot.",
+        "Mix the dried mixes together in a bowl and sprinkle over the roast.",
+        "Pour the water around the roast.",
+        "Cook on low for 7-9 hours."
+      ],
+      "time": 420,
+      "calories": 450,
+      "servings": 8,
+      "price": 45,
+      "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg",
+      "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
+      "objectID": "982991530",
+      "_snippetResult": {
+        "name": {
+          "value": "Crock Pot Roast",
+          "matchLevel": "none"
+        },
         "ingredients": [
-            {
-                "quantity": "3",
-                "name": "skinless, boneless chicken breasts, halved lengthwise",
-                "type": "Meat"
+          {
+            "quantity": {
+              "value": "1",
+              "matchLevel": "none"
             },
-            {
-                "quantity": "1/2 cup",
-                "name": "mayonnaise",
-                "type": "Baking"
+            "name": {
+              "value": " beef roast",
+              "matchLevel": "none"
             },
-            {
-                "quantity": "1 tbsp",
-                "name": "lemon zest",
-                "type": "Produce"
-            },
-            {
-                "quantity": "1 tbsp ",
-                "name": "lemon juice",
-                "type": "Produce"
-            },
-            {
-                "quantity": "1 1/2 tsp",
-                "name": "curry powder",
-                "type": "Baking"
-            },
-            {
-                "quantity": "1/4 tsp",
-                "name": "salt",
-                "type": "Baking"
-            },
-            {
-                "quantity": "2",
-                "name": "ripe mangoes, diced",
-                "type": "Produce"
-            },
-            {
-                "quantity": "1/4 cup",
-                "name": "dried cranberries",
-                "type": "Produce"
-            },
-            {
-                "quantity": "2",
-                "name": "green onions, thinly sliced",
-                "type": "Produce"
-            },
-            {
-                "quantity": "1",
-                "name": "celery stalk, finely chopped",
-                "type": "Produce"
-            },
-            {
-                "quantity": "6 leaves",
-                "name": "Boston lettuce",
-                "type": "Produce"
-            },
-            {
-                "quantity": "6",
-                "name": "English muffins, toasted",
-                "type": "Misc"
+            "type": {
+              "value": "Meat",
+              "matchLevel": "none"
             }
+          },
+          {
+            "quantity": {
+              "value": "1 package",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "brown gravy mix",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Baking",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "1 package",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "dried Italian salad dressing mix",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Condiments",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "1 package",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "dry ranch dressing mix",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Condiments",
+              "matchLevel": "none"
+            }
+          },
+          {
+            "quantity": {
+              "value": "1/2 cup",
+              "matchLevel": "none"
+            },
+            "name": {
+              "value": "water",
+              "matchLevel": "none"
+            },
+            "type": {
+              "value": "Drinks",
+              "matchLevel": "none"
+            }
+          }
+        ],
+        "appliances": [
+          {
+            "value": "Crock Pot",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Large Bowl",
+            "matchLevel": "none"
+          }
         ],
         "steps": [
-            "ARRANGE chicken in a single layer in a large pot.",
-            "Add water to just cover.",
-            "Bring to a boil over medium-high.",
-            "Flip chicken, reduce heat to medium and simmer until cooked, about 6 more min.",
-            "Cool.",
-            "STIR mayo with lemon zest, juice, curry and salt in large bowl.",
-            "Using 2 forks, shred chicken, then stir into mayo mixture with mango, cranberries, green onions and celery.",
-            "Divide among muffins with lettuce leaves",
-            "Sandwich with tops"
+          {
+            "value": "Place beef roast in crock pot.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Mix the dried mixes together in a bowl and sprinkle over the roast.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Pour the water around the roast.",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Cook on low for 7-9 hours.",
+            "matchLevel": "none"
+          }
         ],
-        "timers": [
-            0,
-            0,
-            0,
-            6,
-            0,
-            0,
-            0,
-            0,
-            0
+        "time": {
+          "value": "420",
+          "matchLevel": "none"
+        },
+        "calories": {
+          "value": "450",
+          "matchLevel": "none"
+        },
+        "servings": {
+          "value": "8",
+          "matchLevel": "none"
+        },
+        "price": {
+          "value": "45",
+          "matchLevel": "none"
+        },
+        "imageURL": {
+          "value": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg",
+          "matchLevel": "none"
+        },
+        "originalURL": {
+          "value": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
+          "matchLevel": "none"
+        }
+      },
+      "_highlightResult": {
+        "name": {
+          "value": "Crock Pot Roast",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "ingredients": [
+          {
+            "name": {
+              "value": " beef roast",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "brown gravy mix",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "dried Italian salad dressing mix",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "dry ranch dressing mix",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          },
+          {
+            "name": {
+              "value": "water",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          }
         ],
-        "imageURL": "http://www.chatelaine.com/wp-content/uploads/2013/05/Curried-chicken-salad.jpg",
-        "originalURL": "http://www.chatelaine.com/recipe/stovetop-cooking-method/curried-chicken-salad/"
+        "appliances": [
+          {
+            "value": "Crock Pot",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "Large Bowl",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        ]
+      },
+      "_rankingInfo": {
+        "nbTypos": 0,
+        "firstMatchedWord": 0,
+        "proximityDistance": 0,
+        "userScore": 0,
+        "geoDistance": 0,
+        "geoPrecision": 0,
+        "nbExactWords": 0,
+        "words": 0,
+        "filters": 0
+      }
     }
-]
+  ],
+  "nbHits": 9,
+  "page": 0,
+  "nbPages": 1,
+  "hitsPerPage": 10,
+  "processingTimeMS": 2,
+  "facets": {
+    "calories": {
+      "100": 1,
+      "150": 1,
+      "193": 1,
+      "200": 1,
+      "250": 1,
+      "300": 1,
+      "400": 1,
+      "450": 1,
+      "455": 1
+    },
+    "price": {
+      "4": 1,
+      "9": 1,
+      "10": 1,
+      "13": 1,
+      "15": 1,
+      "17": 1,
+      "18": 1,
+      "23": 1,
+      "45": 1
+    },
+    "servings": {
+      "2": 1,
+      "3": 1,
+      "4": 2,
+      "6": 1,
+      "8": 2,
+      "12": 1,
+      "24": 1
+    },
+    "time": {
+      "23": 1,
+      "25": 1,
+      "40": 1,
+      "60": 1,
+      "65": 2,
+      "90": 1,
+      "116": 1,
+      "420": 1
+    }
+  },
+  "facets_stats": {
+    "calories": {
+      "min": 100,
+      "max": 455,
+      "avg": 277,
+      "sum": 2498
+    },
+    "price": {
+      "min": 4,
+      "max": 45,
+      "avg": 17,
+      "sum": 154
+    },
+    "servings": {
+      "min": 2,
+      "max": 24,
+      "avg": 7,
+      "sum": 71
+    },
+    "time": {
+      "min": 23,
+      "max": 420,
+      "avg": 100,
+      "sum": 904
+    }
+  },
+  "exhaustiveFacetsCount": true,
+  "exhaustiveNbHits": true,
+  "query": "",
+  "params": "query=&hitsPerPage=10&page=0&analytics=false&attributesToRetrieve=*&highlightPreTag=%3Cais-highlight-0000000000%3E&highlightPostTag=%3C%2Fais-highlight-0000000000%3E&attributesToSnippet=*%3A20&getRankingInfo=true&snippetEllipsisText=%E2%80%A6&responseFields=*&facets=*%2Ccalories%2Cprice%2Cservings%2Ctime&tagFilters=",
+  "index": "Recipes",
+  "serverUsed": "c8-use-3.algolia.net",
+  "indexUsed": "Recipes",
+  "parsedQuery": "",
+  "timeoutCounts": false,
+  "timeoutHits": false
+}

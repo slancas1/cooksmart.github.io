@@ -62,13 +62,14 @@ search.addWidget(
     })
 );
 
-window.onload = function () {
+window.onmousemove = function () {
     var results = document.getElementsByClassName('ais-Hits-item');
     for (var i = 0; i < results.length; i++) {
         var result = results[i];
         result.onclick = function () {
             var name = this.getElementsByClassName("hit-name");
-            alert(name[0].textContent);
+            localStorage.setItem("storageName", name[0].textContent);
+            window.location.href = "recipepage.html";
         }
     }
 }

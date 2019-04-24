@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -58,18 +58,18 @@
       <br>
       <br>
       <br>
-      <img src="https://static01.nyt.com/images/2017/03/24/dining/24COOKING-CLASSICPANCAKES/24COOKING-CLASSICPANCAKES-articleLarge.jpg" alt="" align="middle" height="300" width="450">
+      <img id="image" alt="" align="middle" height="300" width="450">
       <br>
       <br>
-      <h3 style="color: #355191;"> <b> Pancakes </b> </h3>
-      <p style="color: #355191;"> <b> Total Time: </b> 20 mins &nbsp; <b> Servings: </b> 4 to 6 &nbsp; <b> Calories: </b> 170 </p>
+      <h3 style="color: #355191;" id="title">  </h3>
+      <p style="color: #355191;" id="info"> </p>
       <button type="submit" class="btn btn-primary" id="addToRecipes">Add to My Recipes</button>
 
       <br>
       <br>
         <div id="left" style="float:left; width:45%;">
             <h3 style="color: #355191;" align="left"> <b> Appliances Required </b> </h3>
-                <form name="myAppliances" action="" method="" align="left" style="color: #355191;">
+                <form name="myAppliances" action="" method="" align="left" style="color: #355191;" id="appliances">
                 <input type="checkbox" name="appliances" value="skillet"  /> Skillet <br />
                 <input type="checkbox" name="appliances" value="stove"  /> Stove <br />
                 <input type="checkbox" name="appliances" value="ladle"  /> Ladle
@@ -78,7 +78,7 @@
                 <br>
 
             <h3 style="color: #355191;" align="left"> <b> Ingredients </b> </h3>
-                <form name="myIngredients" action="" method="" align="left" style="color: #355191;">
+                <form name="myIngredients" action="" method="" align="left" style="color: #355191;" id="ingredients">
                 <input type="checkbox" name="ingredients" value="flour"  /> 2 cups all-purpose flour <br />
                 <input type="checkbox" name="ingredients" value="baking powder"  /> 2 teaspoons baking powder <br />
                 <input type="checkbox" name="ingredients" value="salt"  /> 1/4 teaspoon salt <br />
@@ -91,15 +91,7 @@
 
       <div id="right" style="float:right; width:55%;">
           <h3 style="color: #355191;"><b>Directions</b></h3>
-          <p style="color: #355191;" align="left">
-              <b> 1. </b> Heat a griddle or large skillet over medium-low heat. In a bowl, mix together dry ingredients. Beat eggs into 1 1/2 cups milk, then stir in 2 tablespoons melted cooled butter, if using it. Gently stir this mixture into dry ingredients, mixing only enough to moisten flour; don't worry about a few lumps. If batter seems thick, add a little more milk.
-              <br>
-              <br>
-              <b> 2. </b> Place a teaspoon or 2 of butter or oil on griddle or skillet. When butter foam subsides or oil shimmers, ladle batter onto griddle or skillet, making pancakes of any size you like. Adjust heat as necessary; usually, first batch will require higher heat than subsequent batches. Flip pancakes after bubbles rise to surface and bottoms brown, after 2 to 4 minutes.
-              <br>
-              <br>
-              <b> 3. </b> Cook until second side is lightly browned. Serve, or hold on an ovenproof plate in a 200-degree oven for up to 15 minutes.
-          </p>
+          <p style="color: #355191;" align="left" id="directions"></p>
     </div>
 
     <br>
@@ -146,11 +138,9 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Contact form JavaScript -->
-  <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
+    <script src="https://cdn.jsdelivr.net/algoliasearch/3.32.0/algoliasearchLite.min.js"></script>
+    <script src="./src/instantsearch.js"></script>
+  <script src="./src/recipe.js"></script>
 
 </body>
 
