@@ -74,19 +74,84 @@
         #copy {display:inline-block; float:right;  margin-right:0.5em;}
         #email {display:inline-block; float:right;  margin-right:0.5em;}
       </style> -->
-
-        <a href="shoppinglist.html" id="print" >
+      <!--Creates the popup body-->
+      <div class="popup-overlay" id="popup">
+        <!--Creates the popup content-->
+        <div class="popup-content" id="popup1">
+          <h2> Are you sure you want to print?</h2>
+          <!--popup's close button-->
+          <button class="btn-login" value="Yes" id="yes">Yes</button>
+          <button class="btn-primary1" value="Close" id="close">Cancel</button>
+        </div></div>
+        <a href="#" target=_self onClick="pop()" >
             <img border="0" alt="" src="img/print.png" width="50px" height="50px">
-        </a>
+        </a><script>
+        //appends an "active" class to .popup and .popup-content when the "Open" button is clicked
+            function pop(){
+              $("#popup, #popup1").addClass("active");
+            };
+
+            //removes the "active" class to .popup and .popup-content when the "Close" button is clicked
+            $("#close, #yes").on("click", function(){
+              $("#popup, #popup1").removeClass("active");
+            });
+            </script>
         &nbsp;
-        <a href="shoppinglist.html"  id="email">
+        <div class="popup-overlay" id="popup2">
+          <!--Creates the popup content-->
+          <div class="popup-content" id="popup3">
+            <h2> Enter your email</h2>
+            <!--popup's close button-->
+            <input type="text" placeholder="Email" id="textbox">
+            <button class="btn-login" id="send" value="send">Send</button>
+          </div></div>
+          <div class="popup-overlay" id="popup4">
+            <!--Creates the popup content-->
+            <div class="popup-content" id="popup5">
+              <h2> Email Sent!</h2>
+              <!--popup's close button-->
+              <button class="btn-login" id="close3" value="close">Close</button>
+            </div></div>
+        <a href="#" target=_self onClick="pop1()">
             <img border="0" alt="" src="img/email.png" width="50px" height="50px">
-        </a>
+        </a><script>
+        //appends an "active" class to .popup and .popup-content when the "Open" button is clicked
+            function pop1(){
+              $("#popup2, #popup3").addClass("active");
+            };
+
+            //removes the "active" class to .popup and .popup-content when the "Close" button is clicked
+            $("#send").on("click", function(){
+              $("#popup2, #popup3").removeClass("active");
+              document.getElementById("textbox").value = "";
+              $("#popup4, #popup5").addClass("active");
+            });
+            $("#close3").on("click", function(){
+              $("#popup4, #popup5").removeClass("active");
+            });
+            </script>
         &nbsp;
-        <a href="shoppinglist.html" id="copy">
+        <div class="popup-overlay" id="popup6">
+          <!--Creates the popup content-->
+          <div class="popup-content" id="popup7">
+            <h2> List Copied to clipboard!</h2>
+            <!--popup's close button-->
+            <button class="btn-login" id="close2" value="close2">Close</button>
+          </div></div>
+      <a href="#" target=_self onClick="pop2()">
             <img align="right" border="0" alt="" src="img/copy.png" width="50px" height="50px">
           </a>
-        </div></div>
+        </div></div><script>
+        function pop2(){
+          $("#popup6, #popup7").addClass("active");
+        };
+
+        //removes the "active" class to .popup and .popup-content when the "Close" button is clicked
+        $("#close2").on("click", function(){
+          $("#popup6, #popup7").removeClass("active");
+        });
+
+        </script>
       <div class="row-border"></div>
 <br/>
     <!-- /.row -->
