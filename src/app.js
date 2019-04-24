@@ -50,11 +50,18 @@ search.addWidget(
         templates: {
             empty: "No results",
             item: `
-                <img src="{{imageURL}}" align="left" height="100px" width="auto" margin-right="30px" />
-                <div class="hit-name" align="left">
+                <style type="text/css">
+                  #name {display:inline-block; float:left;}
+                  #time {display:inline-block; float:right;}
+                </style>
+                <img src="{{imageURL}}" align="left" height="100px" width="100px" margin-right="30px" />
+                <div class="hit-name" align="left" style="font-size:26px" id="name">
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
                     {{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}}
                 </div>
-                <div class="hit-time" align="right">
+                <div class="hit-time" align="right" style="font-size:26px" id="time">
                     {{time}} minutes
                 </div>
             `,
