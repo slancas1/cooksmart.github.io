@@ -141,18 +141,27 @@
 </body>
 
 <script>
+    var i = 0;
     function createBox(addIng) {
-        
         if (addIng.value !== '') {
 
-            var box = document.createElement('input');  // CREATE CHECK BOX.
-            box.setAttribute('type', 'checkbox');       // SPECIFY THE TYPE OF ELEMENT.
+            var box = document.createElement('input');
+            box.setAttribute('type', 'checkbox');
             box.setAttribute('value', addIng.value);
             box.setAttribute('name', 'ingredients');
+            box.setAttribute('id', 'prodName' + i);
+          
+            var boxLabel = document.createElement('label');  // CREATE LABEL.
+            boxLabel.setAttribute('for', box.id);
 
-            // APPEND THE NEWLY CREATED CHECKBOX AND LABEL TO THE <p> ELEMENT.
+            // CREATE A TEXT NODE AND APPEND IT TO THE LABEL.
+            boxLabel.appendChild(document.createTextNode(addIng.value));
+          
             var theList = document.getElementById("list");
             theList.appendChild(box);
+            theList.appendChild(boxLabel);
+          
+            i = i + 1;
         }
     }
 </script>
