@@ -99,7 +99,7 @@
 
     <div id="list" style="float:left; width:45%;">
         <h3 style="color: #355191;" align="left"> </h3>
-            <form name="myIngredients" action="" method="" align="left" style="color: #000000;">
+            <form name="myIngredients" id="listForm" action="" method="" align="left" style="color: #000000;">
               <a class="nav-link dropleft dropdown-toggle" href="#" id="addItemDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Add an item
                         </a>
@@ -158,7 +158,7 @@
             lbl.appendChild(document.createTextNode(addIng.value));
 
             // APPEND THE NEWLY CREATED CHECKBOX AND LABEL TO THE <p> ELEMENT.
-            var theList = document.getElementById("list");
+            var theList = document.getElementById("listForm");
             theList.appendChild(box);
             theList.appendChild(lbl);
 
