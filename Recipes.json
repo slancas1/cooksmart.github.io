@@ -1,5 +1,4 @@
-{
-  "hits": [
+[
     {
       "name": "Curried chicken salad",
       "ingredients": [
@@ -3066,89 +3065,4 @@
         "filters": 0
       }
     }
-  ],
-  "nbHits": 9,
-  "page": 0,
-  "nbPages": 1,
-  "hitsPerPage": 10,
-  "processingTimeMS": 2,
-  "facets": {
-    "calories": {
-      "100": 1,
-      "150": 1,
-      "193": 1,
-      "200": 1,
-      "250": 1,
-      "300": 1,
-      "400": 1,
-      "450": 1,
-      "455": 1
-    },
-    "price": {
-      "4": 1,
-      "9": 1,
-      "10": 1,
-      "13": 1,
-      "15": 1,
-      "17": 1,
-      "18": 1,
-      "23": 1,
-      "45": 1
-    },
-    "servings": {
-      "2": 1,
-      "3": 1,
-      "4": 2,
-      "6": 1,
-      "8": 2,
-      "12": 1,
-      "24": 1
-    },
-    "time": {
-      "23": 1,
-      "25": 1,
-      "40": 1,
-      "60": 1,
-      "65": 2,
-      "90": 1,
-      "116": 1,
-      "420": 1
-    }
-  },
-  "facets_stats": {
-    "calories": {
-      "min": 100,
-      "max": 455,
-      "avg": 277,
-      "sum": 2498
-    },
-    "price": {
-      "min": 4,
-      "max": 45,
-      "avg": 17,
-      "sum": 154
-    },
-    "servings": {
-      "min": 2,
-      "max": 24,
-      "avg": 7,
-      "sum": 71
-    },
-    "time": {
-      "min": 23,
-      "max": 420,
-      "avg": 100,
-      "sum": 904
-    }
-  },
-  "exhaustiveFacetsCount": true,
-  "exhaustiveNbHits": true,
-  "query": "",
-  "params": "query=&hitsPerPage=10&page=0&analytics=false&attributesToRetrieve=*&highlightPreTag=%3Cais-highlight-0000000000%3E&highlightPostTag=%3C%2Fais-highlight-0000000000%3E&attributesToSnippet=*%3A20&getRankingInfo=true&snippetEllipsisText=%E2%80%A6&responseFields=*&facets=*%2Ccalories%2Cprice%2Cservings%2Ctime&tagFilters=",
-  "index": "Recipes",
-  "serverUsed": "c8-use-3.algolia.net",
-  "indexUsed": "Recipes",
-  "parsedQuery": "",
-  "timeoutCounts": false,
-  "timeoutHits": false
-}
+  ]
