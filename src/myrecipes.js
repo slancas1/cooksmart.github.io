@@ -42,6 +42,8 @@ window.onload = function () {
                 });
                 var recipe = data[index];
                 var node = document.createElement('div');
+                node.setAttribute("class", "item");
+                node.setAttribute("name", title);
                 node.innerHTML = '<style type="text/css"> \
                     #name {display: inline-block; float:left;} \
                             #time {display: inline-block; float:right;} \
@@ -61,12 +63,12 @@ window.onload = function () {
 }
 
 window.onmousemove = function () {
-    var results = document.getElementsByClassName('ais-Hits-item');
+    var results = document.getElementsByClassName('item');
     for (var i = 0; i < results.length; i++) {
         var result = results[i];
         result.onclick = function () {
-            var name = this.getElementsByClassName("hit-name");
-            localStorage.setItem("storageName", name[0].textContent);
+            var name = this.getAttribute("name");
+            localStorage.setItem("storageName", name);
             window.location.href = "recipepage.html";
         }
     }
