@@ -30,39 +30,16 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="find.html">Find</a>
+            <a class="nav-link" href="find.html" style="color: #696969; font-size:26px;">Find &nbsp;&nbsp;</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="myrecipes.html">My Recipes</a>
+            <a class="nav-link" href="myrecipes.html" style="color: #696969; font-size:26px;">My Recipes &nbsp;&nbsp;</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="shoppinglist.html">Shopping List</a>
+            <a class="nav-link" href="shoppinglist.html" style="color: #696969; font-size:26px;">Shopping List &nbsp;&nbsp;</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropleft dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              My Profile
-            </a>
-                  <ul class="dropdown-menu" style="padding: 20px 10px 5px 10px; width:300px;">
-                           <li>
-                                     <form action="login.php" method="POST">
-                                                <div class="form-group">
-                                                            <input type="email" class="form-control" name="username" placeholder="Username">
-                                                </div>
-                                                <div class="form-group">
-                                                  <input type="password" class="form-control" name="password" placeholder="Password">
-                                                </div>
-                                                <div class="checkbox">
-                                                  <label><input type="checkbox"> Remember me</label>
-                                                </div>
-                                                <button type="submit" class="btn btn-primary" name="login">Login</button>
-                                                <button type="submit" class="btn btn-primary" name="signup">Sign Up</button>
-                                      </form>
-                          </li>
-                  </ul>
-            <!-- <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-              <a class="dropdown-item" href="sign-up.html">Sign Up</a>
-              <a class="dropdown-item" href="log-in.html">Log In</a>
-            </div> -->
+          <li class="nav-item">
+              <a class="nav-link" href="profile.html" style="color: #696969; font-size:26px;">My Profile</a>
           </li>
         </ul>
       </div>
@@ -73,7 +50,6 @@
   <div class="container">
     <br>
 
-    <div class="row" style="border-bottom:1pt solid black;">
       <style type="text/css">
         #header {display:inline-block; float:left;}
         #print {display:inline-block; float:right;}
@@ -81,26 +57,38 @@
         #email {display:inline-block; float:right;  margin-right:0.5em;}
       </style>
       <h3 id="header" style="color: #D65A02;" align="left"> Shopping List </h3>
-      <a id="print" href="shoppinglist.html">
+      <a href="shoppinglist.html" id="print" >
           <img border="0" alt="" src="https://cdn1.iconfinder.com/data/icons/social-productivity-line-art-2/128/printer-3-512.png" width="50px" height="50px">
         </a>
       &nbsp;
-      <a id="email" href="shoppinglist.html">
+      <a href="shoppinglist.html"  id="email">
           <img border="0" alt="" src="https://cdn3.iconfinder.com/data/icons/email-51/48/25-512.png" width="50px" height="50px">
         </a>
       &nbsp;
-      <a id="copy" href="shoppinglist.html">
-          <img border="0" alt="" src="https://cdn3.iconfinder.com/data/icons/files-folders-line/100/copy-512.png" width="50px" height="50px">
+      <a href="shoppinglist.html" id="copy">
+          <img align="right" border="0" alt="" src="https://cdn3.iconfinder.com/data/icons/files-folders-line/100/copy-512.png" width="50px" height="50px">
         </a>
 
         <br>
-    </div>
+
     <!-- /.row -->
 
     <div id="list" style="float:left; width:45%;">
-        <h3 style="color: #355191;" align="left"> </h3>
+        <form name="myIngredients" id="listForm" action="" method="" align="left" style="color: #696969;">
+        <input type="checkbox" name="ingredients" value="&nbsp; 1 Yellow Onion"  />1 Yellow Onion <br />
+        <input type="checkbox" name="ingredients" value="&nbsp; 1 Packet Chili Powder"  />1 Packet Chili Powder <br />
+        <input type="checkbox" name="ingredients" value="&nbsp; 2 Pounds Beef"  />2 Pounds Beef <br />
+        <input type="checkbox" name="ingredients" value="&nbsp; 1 Pound Scallops"  />1 Pound Scallops <br />
+        <input type="checkbox" name="ingredients" value="&nbsp; 1 Stick of Butter"  />1 Stick of Butter <br />
+        <input type="checkbox" name="ingredients" value="&nbsp; 1/2 Gallon Milk"  />1/2 Gallon Milk <br />
+        <input type="checkbox" name="ingredients" value="&nbsp; 1 Quart Heavy Cream"  />1 Quart Heavy Cream <br />
+        </form>
+
+        <br />
+
+        <h3 style="color: #D65A02;" align="left"> </h3>
                     <a class="nav-link dropleft dropdown-toggle" href="#" id="addItemDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Add an item
+                            Add Item
                         </a>
               <ul class="dropdown-menu" style="padding: 20px 10px 5px 10px; width:300px;">
                             <li>
@@ -108,21 +96,11 @@
                                     <div class="form-group">
                                         <input type="email" class="form-control" name="ingredientAdd" placeholder="Input Ingredient">
                                     </div>
-                                    <button type="submit" class="btn btn-primary" style="background-color:white;color:black;width:150px;height:40px;" id="addIngredient" onclick="createBox(ingredientAdd)">Add an Item</button>
+                                    <button type="submit" class="btn btn-primary" style="background-color:white;color:black;width:150px;height:40px;" id="addIngredient" onclick="createBox(ingredientAdd)">Add Item</button>
                                 </form>
                             </li>
                         </ul>
-            <br />
-            <form name="myIngredients" id="listForm" action="" method="" align="left" style="color: #000000;">
-            <input type="checkbox" name="ingredients" value="1 Yellow Onion"  />1 Yellow Onion <br />
-            <input type="checkbox" name="ingredients" value="1 Packet Chili Powder"  />1 Packet Chili Powder <br />
-            <input type="checkbox" name="ingredients" value="2 Pounds Beef"  />2 Pounds Beef <br />
-            <input type="checkbox" name="ingredients" value="1 Pound Scallops"  />1 Pound Scallops <br />
-            <input type="checkbox" name="ingredients" value="1 Stick of Butter"  />1 Stick of Butter <br />
-            <input type="checkbox" name="ingredients" value="1/2 Gallon Milk"  />1/2 Gallon Milk <br />
-            <input type="checkbox" name="ingredients" value="1 Quart Heavy Cream"  />1 Quart Heavy Cream <br />
-            </form>
-            
+
      </div>
      <!-- /.list -->
 
@@ -151,21 +129,21 @@
             box.setAttribute('name', 'ingredients');
             box.setAttribute('id', 'prodName' + i);
             box.setAttribute('style', 'color: #000000');
-          
+
             var boxLabel = document.createElement('label');  // CREATE LABEL.
             boxLabel.setAttribute('for', box.id);
             boxLabel.setAttribute('style', 'color: #000000');
 
             // CREATE A TEXT NODE AND APPEND IT TO THE LABEL.
             boxLabel.appendChild(document.createTextNode(addIng.value));
-          
+
             var theList = document.getElementById("list");
             theList.appendChild(box);
             theList.appendChild(boxLabel);
-          
+
             i = i + 1;
         }
     }
 </script>
-  
+
 </html>
