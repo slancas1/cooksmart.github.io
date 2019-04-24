@@ -64,7 +64,28 @@
             <br>
             <h3 style="color: #696969;" id="title">  </h3>
             <p style="color: #696969;" id="info"> </p>
-            <button type="submit" class="btn btn-primary" id="addToRecipes" style="background-color: #d65a02; color: #e7e6e6" onclick="setColor('addToRecipes', '#696969')">Add to My Recipes</button>
+
+            <div class="popup-overlay" id="popup2">
+              <!--Creates the popup content-->
+              <div class="popup-content" id="popup3">
+                <h2> Added to My Recipes</h2>
+                <button class="btn-primary1" value="Close" id="close">Close</button>
+              </div></div>
+
+            <button type="submit" class="btn btn-primary" id="addToRecipes" style="background-color: #d65a02; color: #e7e6e6" onclick="alert("Added to My Recipes!");">Add to My Recipes</button>
+
+            <script>
+            //appends an "active" class to .popup and .popup-content when the "Open" button is clicked
+                function pop1(){
+                  $("#popup2, #popup3").addClass("active");
+                };
+
+                //removes the "active" class to .popup and .popup-content when the "Close" button is clicked
+                $("#close, #yes").on("click", function(){
+                  $("#popup2, #popup3").removeClass("active");
+                });
+            </script>
+
             <br>
             <br>
             <div id="left" style="float:left; width:45%;">
@@ -74,15 +95,29 @@
                 <h3 style="color: #696969;" align="left"> <b> Ingredients </b> </h3>
                 <form name="myIngredients" action="" method="" align="left" style="color: #696969;" id="ingredients"></form>
                 <br>
-                <button type="button" id="addToShoppingList" style="background-color:#D65A02; color:#e7e6e6; font-size:18px;" onclick="setColor('addToShoppingList', '#696969')">Add To Shopping List</button>
-            </div>
 
-            <script>
-                function setColor(btn, color) {
-                    var property = document.getElementById(btn);
-                    property.style.backgroundColor = color
-                }
-            </script>
+                <div class="popup-overlay" id="popup">
+                  <!--Creates the popup content-->
+                  <div class="popup-content" id="popup1">
+                    <h2> Added to Shopping List</h2>
+                    <button class="btn-primary1" value="Close" id="close">Close</button>
+                  </div></div>
+
+                <button type="button" id="addToShoppingList" style="background-color:#D65A02; color:#e7e6e6; font-size:18px;" onclick="pop()">Add To Shopping List</button>
+
+                <script>
+                //appends an "active" class to .popup and .popup-content when the "Open" button is clicked
+                    function pop(){
+                      $("#popup, #popup1").addClass("active");
+                    };
+
+                    //removes the "active" class to .popup and .popup-content when the "Close" button is clicked
+                    $("#close, #yes").on("click", function(){
+                      $("#popup, #popup1").removeClass("active");
+                    });
+                </script>
+
+            </div>
 
             <div id="right" style="float:right; width:55%;">
                 <h3 style="color: #696969;"><b>Directions</b></h3>
