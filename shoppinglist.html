@@ -141,7 +141,9 @@
 </body>
 
 <script>
+    var i = 8
     function createBox(addIng) {
+        
         if (addIng.value !== '') {
 
             var box = document.createElement('input');  // CREATE CHECK BOX.
@@ -150,18 +152,19 @@
             box.setAttribute('name', 'ingredients');
 
             var lbl = document.createElement('label');  // CREATE LABEL.
-            lbl.setAttribute('for', addIng.value);
+            lbl.setAttribute('for', i);
 
             // CREATE A TEXT NODE AND APPEND IT TO THE LABEL.
             lbl.appendChild(document.createTextNode(addIng.value));
 
             // APPEND THE NEWLY CREATED CHECKBOX AND LABEL TO THE <p> ELEMENT.
-             var theList = document.getElementById("list");
+            var theList = document.getElementById("list");
             theList.appendChild(box);
             theList.appendChild(lbl);
 
             addIng.value = '';
             document.getElementById(addIng.id).focus();
+        i = i + 1;
         }
     }
 </script>
