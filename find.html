@@ -29,39 +29,16 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="find.html">Find</a>
+                        <a class="nav-link" href="find.html" style="color: #696969; font-size:26px;"> Find &nbsp;&nbsp;</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="myrecipes.html">My Recipes</a>
+                        <a class="nav-link" href="myrecipes.html" style="color: #696969; font-size:26px;">My Recipes &nbsp;&nbsp;</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="shoppinglist.html">Shopping List</a>
+                        <a class="nav-link" href="shoppinglist.html" style="color: #696969; font-size:26px;">Shopping List &nbsp;&nbsp;</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropleft dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            My Profile
-                        </a>
-                        <ul class="dropdown-menu" style="padding: 20px 10px 5px 10px; width:300px;">
-                            <li>
-                                <form action="login.php" method="POST">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" name="username" placeholder="Username">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="password" class="form-control" name="password" placeholder="Password">
-                                    </div>
-                                    <div class="checkbox">
-                                        <label><input type="checkbox"> Remember me</label>
-                                    </div>
-                                    <button type="submit" class="btn btn-primary" name="login">Login</button>
-                                    <button type="submit" class="btn btn-primary" name="signup">Sign Up</button>
-                                </form>
-                            </li>
-                        </ul>
-                        <!-- <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                          <a class="dropdown-item" href="sign-up.html">Sign Up</a>
-                          <a class="dropdown-item" href="log-in.html">Log In</a>
-                        </div> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html" style="color: #696969; font-size:26px;">My Profile</a>
                     </li>
                 </ul>
             </div>
@@ -87,7 +64,7 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="button-group">
-                                    <button type="button" style="color: #696969;" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" name="calories"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span>Calories</button>
+                                    <button type="button" style="color: #696969; font-size:26px;" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" name="calories"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span>Calories</button>
                                     <div class="dropdown-menu" id="calories-list"></div>
                                 </div>
                             </div>
@@ -97,7 +74,7 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="button-group">
-                                    <button type="button" style="color: #696969;" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" name="time"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span>Time (minutes)</button>
+                                    <button type="button" style="color: #696969; font-size:26px;" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" name="time"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span>Time (minutes)</button>
                                     <div class="dropdown-menu" id="time-list"></div>
                                 </div>
                             </div>
@@ -107,7 +84,7 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="button-group">
-                                    <button type="button" style="color: #696969;" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" name="budget"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span>Total Price ($)</button>
+                                    <button type="button" style="color: #696969; font-size:26px;" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" name="budget"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span>Total Price ($)</button>
                                     <div class="dropdown-menu" id="price-list"></div>
                                 </div>
                             </div>
@@ -117,8 +94,18 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="button-group">
-                                    <button type="button" style="color: #696969;" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" name="servings"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span>Servings</button>
+                                    <button type="button" style="color: #696969; font-size:26px;" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" name="servings"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span>Servings</button>
                                     <div class="dropdown-menu" id="servings-list"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="button-group">
+                                    <button type="button" style="color: #696969; font-size:26px;" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" name="appliances"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span>Appliances</button>
+                                    <div class="dropdown-menu" id="appliances-list"></div>
                                 </div>
                             </div>
                         </div>

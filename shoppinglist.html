@@ -150,12 +150,13 @@
             box.setAttribute('value', addIng.value);
             box.setAttribute('name', 'ingredients');
             box.setAttribute('id', 'prodName' + i);
+            box.setAttribute('style', 'color: #000000');
           
             var boxLabel = document.createElement('label');  // CREATE LABEL.
             boxLabel.setAttribute('for', box.id);
 
             // CREATE A TEXT NODE AND APPEND IT TO THE LABEL.
-            boxLabel.appendChild(document.createTextNode(addIng.value));
+            boxLabel.appendChild(document.createTextNode(' ' + addIng.value));
           
             var theList = document.getElementById("list");
             theList.appendChild(box);

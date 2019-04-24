@@ -45,16 +45,30 @@ search.addWidget(
 );
 
 search.addWidget(
+    instantsearch.widgets.refinementList({
+        container: '#appliances-list',
+        attribute: 'appliances',
+    })
+);
+
+search.addWidget(
     instantsearch.widgets.hits({
         container: '#hits',
         templates: {
             empty: "No results",
             item: `
-                <img src="{{imageURL}}" align="left" height="100px" width="auto" margin-right="30px" />
-                <div class="hit-name" align="left">
+                <style type="text/css">
+                  #name {display:inline-block; float:left;}
+                  #time {display:inline-block; float:right;}
+                </style>
+                <img src="{{imageURL}}" align="left" height="100px" width="100px" margin-right="30px" />
+                <div class="hit-name" align="left" style="font-size:26px" id="name">
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
                     {{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}}
                 </div>
-                <div class="hit-time" align="right">
+                <div class="hit-time" align="right" style="font-size:26px" id="time">
                     {{time}} minutes
                 </div>
             `,
@@ -62,13 +76,14 @@ search.addWidget(
     })
 );
 
-window.onload = function () {
+window.onmousemove = function () {
     var results = document.getElementsByClassName('ais-Hits-item');
     for (var i = 0; i < results.length; i++) {
         var result = results[i];
         result.onclick = function () {
             var name = this.getElementsByClassName("hit-name");
-            alert(name[0].textContent);
+            localStorage.setItem("storageName", name[0].textContent);
+            window.location.href = "recipepage.html";
         }
     }
 }
