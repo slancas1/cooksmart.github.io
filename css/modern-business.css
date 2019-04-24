@@ -149,9 +149,14 @@ button {
 }
 
 .btn-login {
-  color: #fff;
+  color: #ffffff;
   background-color: #d65a02;
   border-color: #d65a02;
+}
+.btn-primary1 {
+  color: #DDDDDD;
+  background-color: #696969;
+  border-color: #DDDDDD;
 }
 
 .portfolio-item {
@@ -161,4 +166,30 @@ button {
 .row-border {
   border-bottom-style: solid;
   border-bottom-color: #d65a02;
+}
+
+.popup-overlay{
+  /*Hides pop-up when there is no "active" class*/
+  visibility:hidden;
+  position:absolute;
+  background:#DDDDDD;
+  border:3px solid #696969;
+  width:50%;
+  height:150px;
+  left:25%;
+}
+.popup-overlay.active{
+  /*displays pop-up when "active" class is present*/
+  visibility:visible;
+  text-align:center;
+}
+
+.popup-content {
+  /*Hides pop-up content when there is no "active" class */
+ visibility:hidden;
+}
+
+.popup-content.active {
+  /*Shows pop-up content when "active" class is present */
+  visibility:visible;
 }
