@@ -99,7 +99,7 @@
 
     <div id="list" style="float:left; width:45%;">
         <h3 style="color: #355191;" align="left"> </h3>
-            <form name="myIngredients" action="" method="" align="left" style="color: #000000;">
+            <form name="myIngredients" id="listForm" action="" method="" align="left" style="color: #000000;">
               <a class="nav-link dropleft dropdown-toggle" href="#" id="addItemDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Add an item
                         </a>
@@ -141,27 +141,32 @@
 </body>
 
 <script>
+    var i = 8
     function createBox(addIng) {
+        
         if (addIng.value !== '') {
 
             var box = document.createElement('input');  // CREATE CHECK BOX.
             box.setAttribute('type', 'checkbox');       // SPECIFY THE TYPE OF ELEMENT.
             box.setAttribute('value', addIng.value);
             box.setAttribute('name', 'ingredients');
+            box.setAttribute('id', addIng.value + i);
 
             var lbl = document.createElement('label');  // CREATE LABEL.
-            lbl.setAttribute('for', addIng.value);
+            lbl.setAttribute('for', i);
 
             // CREATE A TEXT NODE AND APPEND IT TO THE LABEL.
             lbl.appendChild(document.createTextNode(addIng.value));
 
             // APPEND THE NEWLY CREATED CHECKBOX AND LABEL TO THE <p> ELEMENT.
-             var theList = document.getElementById("list");
+            var theList = document.getElementById("list");
             theList.appendChild(box);
             theList.appendChild(lbl);
 
             addIng.value = '';
-            document.getElementById(addIng.id).focus();
+
+        i = i + 1;
+        document.getElementById(addIng.id).focus();
         }
     }
 </script>
