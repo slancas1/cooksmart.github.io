@@ -22,6 +22,14 @@ window.onload = function () {
             window.location.href = "recipepage.html";
         }
     }
+    var add = document.getElementById('addToRecipes');
+    add.onclick = function () {
+        myRecipes = JSON.parse(localStorage.getItem("myRecipes"));
+        if (myRecipes.indexOf(localStorage.getItem("storageName").trim()) == -1) {
+            myRecipes.push(localStorage.getItem("storageName").trim());
+            localStorage.setItem("myRecipes", JSON.stringify(myRecipes));
+        }
+    }
     loadJSON(function (response) {
         var data = JSON.parse(response);
         var title = localStorage.getItem("storageName").trim();

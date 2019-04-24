@@ -1,4 +1,9 @@
 
+window.onload = function () {
+    var myRecipes = new Array();
+    localStorage.setItem("myRecipes", JSON.stringify(myRecipes));
+}
+
 window.onmousemove = function () {
     var clicks = document.getElementsByClassName('card h-100');
     for (var i = 0; i < clicks.length; i++) {
