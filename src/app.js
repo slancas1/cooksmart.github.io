@@ -45,13 +45,6 @@ search.addWidget(
 );
 
 search.addWidget(
-    instantsearch.widgets.refinementList({
-        container: '#appliances-list',
-        attribute: 'appliances',
-    })
-);
-
-search.addWidget(
     instantsearch.widgets.hits({
         container: '#hits',
         templates: {
