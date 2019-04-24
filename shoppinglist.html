@@ -99,19 +99,33 @@
 
     <div id="list" style="float:left; width:45%;">
         <h3 style="color: #355191;" align="left"> </h3>
-            <form name="myIngredients" action="" method="" align="left" style="color: #000000;">
+            <form name="myIngredients" id="listForm" action="" method="" align="left" style="color: #000000;">
+              <a class="nav-link dropleft dropdown-toggle" href="#" id="addItemDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Add an item
+                        </a>
+              <ul class="dropdown-menu" style="padding: 20px 10px 5px 10px; width:300px;">
+                            <li>
+                                <form>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" name="ingredientAdd" placeholder="Input Ingredient">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary" style="background-color:white;color:black;width:150px;height:40px;" id="addIngredient" onclick="createBox(ingredientAdd)">Add an Item</button>
+                                </form>
+                            </li>
+                        </ul>
+            <br />
             <input type="checkbox" name="ingredients" value="1 Yellow Onion"  /> Onion <br />
             <input type="checkbox" name="ingredients" value="1 Packet Chili Powder"  /> Powder <br />
             <input type="checkbox" name="ingredients" value="2 Pounds Beef"  /> Beef <br />
             <input type="checkbox" name="ingredients" value="1 Pound Scallops"  /> Scallop <br />
             <input type="checkbox" name="ingredients" value="1 Stick of Butter"  /> Butter <br />
             <input type="checkbox" name="ingredients" value="1/2 Gallon Milk"  /> Milk <br />
-            <input type="checkbox" name="ingredients" value="1 Quart Heavy Cream"  /> Cream 
+            <input type="checkbox" name="ingredients" value="1 Quart Heavy Cream"  /> Cream <br />
             </form>
             
      </div>
      <!-- /.list -->
-     <button type="submit" class="btn btn-primary" style="background-color:white;color:black;width:150px;height:40px;align=left;" id="addIngredient">Add an Item</button>
+
   </div>
   <!-- /.container -->
 
@@ -126,4 +140,31 @@
 
 </body>
 
+<script>
+    var i = 0;
+    function createBox(addIng) {
+        if (addIng.value !== '') {
+
+            var box = document.createElement('input');
+            box.setAttribute('type', 'checkbox');
+            box.setAttribute('value', addIng.value);
+            box.setAttribute('name', 'ingredients');
+            box.setAttribute('id', 'prodName' + i);
+            box.setAttribute('style', 'color: #000000');
+          
+            var boxLabel = document.createElement('label');  // CREATE LABEL.
+            boxLabel.setAttribute('for', box.id);
+
+            // CREATE A TEXT NODE AND APPEND IT TO THE LABEL.
+            boxLabel.appendChild(document.createTextNode(' ' + addIng.value));
+          
+            var theList = document.getElementById("list");
+            theList.appendChild(box);
+            theList.appendChild(boxLabel);
+          
+            i = i + 1;
+        }
+    }
+</script>
+  
 </html>

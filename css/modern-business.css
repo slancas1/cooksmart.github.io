@@ -61,6 +61,11 @@ button {
   background-size: cover;
 }
 
+.list-group {
+    color: #d65a02;
+    font-family: 'gfs_didotregular';
+}
+
 .carousel-caption{
 				position: absolute;
 				right: 0;
@@ -89,6 +94,52 @@ button {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+}
+
+.card-prof {
+  position: relative;
+  width: 300px;
+  height: 100px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  object-fit: fill;
+}
+
+.circ-img {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  overflow:hidden;
+}
+
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 45%;
+  padding: 10px;
+  text-align: center;
+}
+
+.right {
+  width: 55%;
+  padding: 10px;
+  text-align: center;
 }
 
 .btn-login {
