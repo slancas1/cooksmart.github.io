@@ -100,7 +100,20 @@
     <div id="list" style="float:left; width:45%;">
         <h3 style="color: #355191;" align="left"> </h3>
             <form name="myIngredients" action="" method="" align="left" style="color: #000000;">
-            <button type="submit" class="btn btn-primary" style="background-color:white;color:black;width:150px;height:40px;" id="addIngredient">Add an Item</button> <br />
+              <a class="nav-link dropleft dropdown-toggle" href="#" id="addItemDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Add an item
+                        </a>
+              <ul class="dropdown-menu" style="padding: 20px 10px 5px 10px; width:300px;">
+                            <li>
+                                <form>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" name="ingredientAdd" placeholder="Input Ingredient">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary" style="background-color:white;color:black;width:150px;height:40px;" id="addIngredient" onclick="createBox(ingredientAdd)">Add an Item</button>
+                                </form>
+                            </li>
+                        </ul>
+            <br />
             <input type="checkbox" name="ingredients" value="1 Yellow Onion"  /> Onion <br />
             <input type="checkbox" name="ingredients" value="1 Packet Chili Powder"  /> Powder <br />
             <input type="checkbox" name="ingredients" value="2 Pounds Beef"  /> Beef <br />
@@ -127,4 +140,30 @@
 
 </body>
 
+<script>
+    function createBox(addIng) {
+        if (addIng.value !== '') {
+
+            var box = document.createElement('input');  // CREATE CHECK BOX.
+            box.setAttribute('type', 'checkbox');       // SPECIFY THE TYPE OF ELEMENT.
+            box.setAttribute('value', addIng.value);
+            box.setAttribute('name', 'ingredients');
+
+            var lbl = document.createElement('label');  // CREATE LABEL.
+            lbl.setAttribute('for', addIng.value);
+
+            // CREATE A TEXT NODE AND APPEND IT TO THE LABEL.
+            lbl.appendChild(document.createTextNode(addIng.value));
+
+            // APPEND THE NEWLY CREATED CHECKBOX AND LABEL TO THE <p> ELEMENT.
+             var theList = document.getElementById("list");
+            theList.appendChild(box);
+            theList.appendChild(lbl);
+
+            addIng.value = '';
+            document.getElementById(addIng.id).focus();
+        }
+    }
+</script>
+  
 </html>
