@@ -90,8 +90,9 @@
       <div class="row-border"></div>
 <br/>
     <!-- /.row -->
-
-    <div id="list" style="float:left; width:45%;">
+    <div class="row">
+      <div class="column left" style="text-align:left;">
+    <div id="list" style="float:left; width:45%; margin-left:30px">
         <input type="checkbox" name="ingredients" value="&nbsp; 1 Yellow Onion"  />1 Yellow Onion<br/>
         <input type="checkbox" name="ingredients" value="&nbsp; 1 Packet Chili Powder"  />1 Packet Chili Powder <br />
         <input type="checkbox" name="ingredients" value="&nbsp; 2 Pounds Beef"  />2 Pounds Beef <br />
@@ -99,14 +100,19 @@
         <input type="checkbox" name="ingredients" value="&nbsp; 1 Stick of Butter"  />1 Stick of Butter <br />
         <input type="checkbox" name="ingredients" value="&nbsp; 1/2 Gallon Milk"  />1/2 Gallon Milk <br />
         <input type="checkbox" name="ingredients" value="&nbsp; 1 Quart Heavy Cream"  />1 Quart Heavy Cream <br />
-     </div>
+
+
+
+     </div></div>
+     <div class="column right" style="text-align: center;">
         <input type="text" id="txtName" />
-        <input type="button" value="Add Item" id="btnSave" />
+        <input type="button" class="btn-login" value="Add Item" id="btnSave" />
 
         <script type="text/javascript">
 
             $('#btnSave').on('click',(function() {
                 addCheckbox($('#txtName').val());
+                document.getElementById("txtName").value = "";
             }));
 
 
@@ -116,7 +122,7 @@
              var id = inputs.length+1;
              $('#list').append('<input type="checkbox" name="ingredients" value="&nbsp; ' + name +'"/> ' + name + '<br />');
           }
-        </script>
+        </script></div>
 
 
 
