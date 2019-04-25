@@ -1,4 +1,12 @@
 /* global algoliasearch instantsearch */
+var array = ["400","450","455","23","25","13","15","17","18","4","Oven","Stove","Microwave","Mixer","Blender"];
+
+function refreshResults() {
+    var results = document.getElementById("hits");
+    results.setState({
+        clearedCache: -(new Date()),
+    });
+}
 
 const searchClient = algoliasearch(
     'J447XF3GOT',
@@ -45,6 +53,13 @@ search.addWidget(
 );
 
 search.addWidget(
+    instantsearch.widgets.refinementList({
+        container: '#appliances-list',
+        attribute: 'appliances',
+    })
+);
+
+search.addWidget(
     instantsearch.widgets.hits({
         container: '#hits',
         templates: {
@@ -68,6 +83,17 @@ search.addWidget(
         },
     })
 );
+
+apply.onclick = function () {
+    var boxes = document.getElementsByClassName('ais-RefinementList-checkbox');
+    for (i = 0; i < boxes.length; i++) {
+        var box = boxes[i];
+        if (array.includes(box.getAttribute("value"))) {
+            box.setAttribute("checked","");
+        }
+    }
+    refreshResults();
+}
 
 window.onmousemove = function () {
     var results = document.getElementsByClassName('ais-Hits-item');
