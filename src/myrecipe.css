@@ -83,12 +83,31 @@ button {
 
 }
 
+.column-center{
+  text-align: left;
+  color:#d65a02;
+  margin-top: 15px;
+  font-size:26px;
+  display: inline-block;
+  width: 70%;
+}
+.column-left{
+  text-align: center;
+  float: left;
+  width: 10%;
+}
+.column-right{
+  text-align: center;
+  float: right;
+  width: 20%;
+  margin-top: 15px;
+}
+
 .btn-login {
   color: #ffffff;
   background-color: #d65a02;
   border-color: #d65a02;
-  margin-top: 15px;
-  margin-left: 750px;
+  margin-left: 100px;
 }
 .btn-primary1 {
   color: #DDDDDD;
