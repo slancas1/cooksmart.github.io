@@ -48,14 +48,14 @@ window.onload = function () {
                     #name {display: inline-block; float:left;} \
                             #time {display: inline-block; float:right;} \
                         </style> \
-                    <img src="' + recipe.imageURL + '" class="recipeimg" align="left" height="100px" width="100px" margin-right="30px" /> \
-                    <div class="hit-name" align="left" style="font-size:26px" id="name"> \
+                    <div class="column-left"><img src="' + recipe.imageURL + '" class="recipeimg" align="left" height="100px" width="100px" margin-right="30px" /></div>\
+                    <div class="column-center"><div class="hit-name" align="left" style="font-size:26px" id="name"></div>\
                         &nbsp; \
                         &nbsp; \
                         &nbsp; \
                             ' + title + ' \
                         </div> \
-                    <button type="submit" class="btn-login" id="delete" name="' + title + '" syle="align:right">Delete</button>';
+                    <div class="column-right"><button type="submit" class="btn-login" id="delete" name="' + title + '">Delete</button></div>';
                 document.getElementById("hits").appendChild(node);
             }
         }
