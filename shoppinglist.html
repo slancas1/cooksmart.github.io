@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -244,6 +244,12 @@
             theList.appendChild(boxLabel);
 
             i = i + 1;
+        }
+    }
+    window.onload = function () {
+        myList = JSON.parse(localStorage.getItem("myList"));
+        for (i = 0; i < myList.length; i++) {
+            $('#list').append('<input type="checkbox" name="ingredients" value="&nbsp; ' + myList[i] + '"/> ' + myList[i] + '<br />');
         }
     }
 </script>

@@ -32,6 +32,17 @@ window.onload = function () {
         $("#topdiv").append("<div class='alert alert-success alert-fade' id='myAlert3' style='width:50%;'> <button type='button' class='close' data-dismiss='alert'  aria-hidden='true'>&times;</button> <strong>Success!</strong> Recipe added to list.</div>");
 
     }
+    addToShoppingList.onclick = function () {
+        myList = JSON.parse(localStorage.getItem("myList"));
+        checks = document.getElementsByClassName("check");
+        for (i = 0; i < checks.length; i++) {
+            check = checks[i]
+            if (check.checked == true) {
+                myList.push(check.getAttribute("value"));
+            }
+        }
+        localStorage.setItem("myList", JSON.stringify(myList));
+    }
     loadJSON(function (response) {
         var data = JSON.parse(response);
         var title = localStorage.getItem("storageName").trim();
@@ -52,7 +63,7 @@ window.onload = function () {
         }
         for (i = 0; i < recipe.ingredients.length; i++) {
             var node = document.createElement('div');
-            node.innerHTML = '<input type="checkbox" name="ingredients"/>  ' + recipe.ingredients[i].quantity + " " + recipe.ingredients[i].name + "<br/>";
+            node.innerHTML = '<input type="checkbox" name="ingredients" class="check" value="' + recipe.ingredients[i].quantity + ' ' + recipe.ingredients[i].name + '"/>  ' + recipe.ingredients[i].quantity + " " + recipe.ingredients[i].name;
             document.getElementById("ingredients").appendChild(node);
         }
         var directions = '';
