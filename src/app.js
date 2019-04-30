@@ -86,11 +86,11 @@ search.addWidget(
 
 apply.onclick = function () {
     var boxes = document.getElementsByClassName('ais-RefinementList-checkbox');
+    var items = document.getElementsByClassName('ais-RefinementList');
     for (i = 0; i < boxes.length; i++) {
         var box = boxes[i];
         if (array.includes(box.getAttribute("value"))) {
             box.setAttribute("checked", "");
-            //search.refine(refinementList.data(box.getAttribute("value")));
         }
     }
 }

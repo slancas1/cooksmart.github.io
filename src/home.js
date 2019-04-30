@@ -1,9 +1,13 @@
 
 window.onload = function () {
-    var myRecipes = new Array();
-    localStorage.setItem("myRecipes", JSON.stringify(myRecipes));
-    var myList = new Array();
-    localStorage.setItem("myList", JSON.stringify(myList));
+    if (localStorage.getItem("myRecipes") == null) {
+        var myRecipes = new Array();
+        localStorage.setItem("myRecipes", JSON.stringify(myRecipes));
+    }
+    if (localStorage.getItem("myList") == null) {
+        var myList = new Array();
+        localStorage.setItem("myList", JSON.stringify(myList));
+    }
 }
 
 window.onmousemove = function () {
